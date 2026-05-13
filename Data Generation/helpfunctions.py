@@ -324,7 +324,6 @@ def freqs_dic(trees, func, lang):
 	return tot
 
 def support_all_lang(lang):
-
 	if lang == 'en':
 		
 		file0 = lists_path + "en_deverbals_stop.lst"
@@ -355,8 +354,7 @@ def support_all_lang(lang):
 				conv = conv.strip()
 				converts.append(conv)
 
-	return quantifiers, adj_pred, pseudo_deverbs, converts
-'''
+
 	if lang == 'de':
 		file0 = lists_path + "de_deverbals_stop.lst"
 		with open(file0, 'r', encoding='utf-8', errors='ignore') as f:
@@ -383,7 +381,7 @@ def support_all_lang(lang):
 			for conv in file4:
 				conv = conv.strip()
 				converts.append(conv)
-		
+
 	if lang == 'ru':
 		
 		file0 = lists_path + "ru_deverbals_stop.lst"
@@ -406,9 +404,10 @@ def support_all_lang(lang):
 			for adj in file2:
 				adj = adj.strip()
 				adj_pred.append(adj)
-			converts = []'''
+			converts = []
+	
+	return quantifiers, adj_pred, pseudo_deverbs, converts
 
-			
 			
 	
 

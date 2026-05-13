@@ -12,8 +12,8 @@ from pathlib import Path
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 rootdir = BASE_DIR / "Subtitles Data/conllu/" #Please provide path of conllu file's folder here example: Shining-Through\Data Generation\Datasets\europarl\data
-data = os.path.join(rootdir, "en") # Rename the conllu file name to en "Shining-Through\Data Generation\Datasets\europarl\data\DE_en_conllu" here "DE_en_conllu" -> "en"
-outname = data + 'en.csv' # Write language name for which you are extracting feature here
+data = os.path.join(rootdir, "de") # Rename the conllu file name to en "Shining-Through\Data Generation\Datasets\europarl\data\DE_en_conllu" here "DE_en_conllu" -> "en"
+outname = data + 'de.csv' # Write language name for which you are extracting feature here
 print('Starting data processing from %s' % data, file=sys.stderr)
 
 
@@ -29,7 +29,7 @@ master_dict = {k: [] for k in keys}
 
 basic_stats = {}
 #languages = ['en', 'de', 'ru']
-languages = ['en'] #since all data is in english
+languages = ['de'] #since all data is in german
 adv_support = {}
 mpred_support = {}
 pseudo_deverbs = {}
