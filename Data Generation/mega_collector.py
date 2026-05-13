@@ -6,10 +6,17 @@ import os, sys
 import csv
 from extractors import *
 import os
-rootdir = r" " #Please provide path of conllu file's folder here example: Shining-Through\Data Generation\Datasets\europarl\data
+from pathlib import Path
+
+
+BASE_DIR = Path(__file__).resolve().parent.parent
+
+rootdir = BASE_DIR / "Subtitles Data/conllu/" #Please provide path of conllu file's folder here example: Shining-Through\Data Generation\Datasets\europarl\data
 data = os.path.join(rootdir, "en") # Rename the conllu file name to en "Shining-Through\Data Generation\Datasets\europarl\data\DE_en_conllu" here "DE_en_conllu" -> "en"
-outname = data + 'DE_out.csv' # Write language name for which you are extracting feature here
+outname = data + 'en.csv' # Write language name for which you are extracting feature here
 print('Starting data processing from %s' % data, file=sys.stderr)
+
+
 # here, for each file we collect counts averaged over number of words or number of sentences
 ## muted features: passives interrog andor wdlength mark nn
 keys = 'afile alang akorp astatus ' \
