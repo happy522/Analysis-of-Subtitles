@@ -1,0 +1,114 @@
+# text = Gut, wenn du die Sachen nicht beim Namen nennen willst... Aber
+# sent_id = 551
+1	Gut	gut	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No|start_char=0|end_char=3
+2	,	,	PUNCT	$,	_	11	punct	_	start_char=3|end_char=4
+3	wenn	wenn	SCONJ	KOUS	_	11	mark	_	start_char=5|end_char=9
+4	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	start_char=10|end_char=12
+5	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	6	det	_	start_char=13|end_char=16
+6	Sachen	Sache	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	11	obj	_	SpacesAfter=\s\s|start_char=17|end_char=23
+7	nicht	nicht	PART	PTKNEG	Polarity=Neg	11	advmod	_	start_char=25|end_char=30
+8-9	beim	_	_	_	_	_	_	_	start_char=31|end_char=35
+8	bei	bei	ADP	APPR	_	10	case	_	_
+9	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Namen	Name	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	11	obl	_	start_char=36|end_char=41
+11	nennen	nennen	VERB	VVINF	VerbForm=Inf	1	advcl	_	start_char=42|end_char=48
+12	willst	wollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	SpaceAfter=No|start_char=49|end_char=55
+13	...	...	PUNCT	$(	_	1	punct	_	SpacesAfter=\s\s|start_char=55|end_char=58
+14	Aber	aber	ADV	ADV	_	1	advmod	_	SpaceAfter=No|start_char=60|end_char=64
+
+# text = gestern Abend... ist ja passiert.
+# sent_id = 552
+1	gestern	gestern	ADV	ADV	_	2	advmod	_	start_char=0|end_char=7
+2	Abend	Abend	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	obj	_	SpaceAfter=No|start_char=8|end_char=13
+3	...	...	PUNCT	$(	_	2	punct	_	start_char=13|end_char=16
+4	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=17|end_char=20
+5	ja	ja	ADV	ADV	_	6	advmod	_	start_char=21|end_char=23
+6	passiert	passieren	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No|start_char=24|end_char=32
+7	.	.	PUNCT	$.	_	6	punct	_	SpaceAfter=No|start_char=32|end_char=33
+
+# text = Ja, es ist passiert.
+# sent_id = 553
+1	Ja	Ja	ADV	ADV	_	5	advmod	_	SpaceAfter=No|start_char=0|end_char=2
+2	,	,	PUNCT	$,	_	1	punct	_	start_char=2|end_char=3
+3	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	start_char=4|end_char=6
+4	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=7|end_char=10
+5	passiert	passiert	ADJ	VVPP	Degree=Pos|VerbForm=Part	0	root	_	SpaceAfter=No|start_char=11|end_char=19
+6	.	.	PUNCT	$.	_	5	punct	_	SpaceAfter=No|start_char=19|end_char=20
+
+# text = Und fertig, das war's.
+# sent_id = 554
+1	Und	und	CCONJ	KON	_	2	cc	_	start_char=0|end_char=3
+2	fertig	fertig	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No|start_char=4|end_char=10
+3	,	,	PUNCT	$,	_	2	punct	_	start_char=10|end_char=11
+4	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	2	nsubj	_	start_char=12|end_char=15
+5	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	cop	_	SpaceAfter=No|start_char=16|end_char=19
+6	's	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	appos	_	SpaceAfter=No|start_char=19|end_char=21
+7	.	.	PUNCT	$.	_	2	punct	_	SpaceAfter=No|start_char=21|end_char=22
+
+# text = Sag mir mal eins.
+# sent_id = 555
+1	Sag	sagen	VERB	VVIMP	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=0|end_char=3
+2	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	1	obl:arg	_	start_char=4|end_char=7
+3	mal	mal	ADV	ADV	_	1	advmod	_	start_char=8|end_char=11
+4	eins	ein	ADV	ADV	_	1	advmod	_	SpaceAfter=No|start_char=12|end_char=16
+5	.	.	PUNCT	$.	_	1	punct	_	SpaceAfter=No|start_char=16|end_char=17
+
+# text = Was gestern Abend passiert ist,
+# sent_id = 556
+1	Was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	4	obj	_	start_char=0|end_char=3
+2	gestern	gestern	ADV	ADV	_	4	advmod	_	start_char=4|end_char=11
+3	Abend	Abend	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	obj	_	start_char=12|end_char=17
+4	passiert	passieren	VERB	VVPP	VerbForm=Part	0	root	_	start_char=18|end_char=26
+5	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	SpaceAfter=No|start_char=27|end_char=30
+6	,	,	PUNCT	$,	_	4	punct	_	SpaceAfter=No|start_char=30|end_char=31
+
+# text = hast du das so gewollt?
+# sent_id = 557
+1	hast	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=0|end_char=4
+2	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|PronType=Prs	5	nsubj	_	start_char=5|end_char=7
+3	das	der	PRON	PDS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem,Rel	5	obj	_	start_char=8|end_char=11
+4	so	so	ADV	ADV	_	5	advmod	_	start_char=12|end_char=14
+5	gewollt	wollen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No|start_char=15|end_char=22
+6	?	?	PUNCT	$.	_	5	punct	_	SpaceAfter=No|start_char=22|end_char=23
+
+# text = Oder hat es mehr mit dem Typen zu tun, der da in der Bar war?
+# sent_id = 558
+1	Oder	Oder	ADV	ADV	_	9	advmod	_	start_char=0|end_char=4
+2	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=5|end_char=8
+3	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	start_char=9|end_char=11
+4	mehr	mehr	ADV	ADV	_	9	advmod	_	start_char=12|end_char=16
+5	mit	mit	ADP	APPR	_	7	case	_	start_char=17|end_char=20
+6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	start_char=21|end_char=24
+7	Typen	Typ|Type|Typus	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	9	obl	_	start_char=25|end_char=30
+8	zu	zu	PART	PTKZU	_	9	mark	_	start_char=31|end_char=33
+9	tun	tun	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=34|end_char=37
+10	,	,	PUNCT	$,	_	16	punct	_	SpacesAfter=\s\s|start_char=37|end_char=38
+11	der	der	PRON	PRELS	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem,Rel	16	nsubj	_	start_char=40|end_char=43
+12	da	da	ADV	ADV	_	16	advmod	_	start_char=44|end_char=46
+13	in	in	ADP	APPR	_	15	case	_	start_char=47|end_char=49
+14	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	start_char=50|end_char=53
+15	Bar	Bar	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	16	obl	_	start_char=54|end_char=57
+16	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	acl	_	SpaceAfter=No|start_char=58|end_char=61
+17	?	?	PUNCT	$.	_	9	punct	_	SpaceAfter=No|start_char=61|end_char=62
+
+# text = Wie hieß er noch?
+# sent_id = 559
+1	Wie	wie	ADV	KOUS	_	2	advmod	_	start_char=0|end_char=3
+2	hieß	heißen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=4|end_char=8
+3	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=9|end_char=11
+4	noch	noch	ADV	ADV	_	2	advmod	_	SpaceAfter=No|start_char=12|end_char=16
+5	?	?	PUNCT	$.	_	2	punct	_	SpaceAfter=No|start_char=16|end_char=17
+
+# text = Javier?
+# sent_id = 560
+1	Javier	Javier	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|start_char=0|end_char=6
+2	?	?	PUNCT	$.	_	1	punct	_	SpaceAfter=No|start_char=6|end_char=7
+
+# text = Hab ich mir gedacht.
+# sent_id = 561
+1	Hab	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=0|end_char=3
+2	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=4|end_char=7
+3	mir	ich	PRON	PRF	Case=Dat|Number=Sing|Person=1|PronType=Prs	4	obl:arg	_	start_char=8|end_char=11
+4	gedacht	denken|gedenken	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No|start_char=12|end_char=19
+5	.	.	PUNCT	$.	_	4	punct	_	SpaceAfter=No|start_char=19|end_char=20
+

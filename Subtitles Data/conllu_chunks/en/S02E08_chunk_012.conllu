@@ -1,0 +1,118 @@
+# text = Okay, I don't want to label these things, but...
+# sent_id = 551
+1	Okay	okay	INTJ	UH	_	6	discourse	_	SpaceAfter=No|start_char=0|end_char=4
+2	,	,	PUNCT	,	_	1	punct	_	start_char=4|end_char=5
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	start_char=6|end_char=7
+4-5	don't	_	_	_	_	_	_	_	start_char=8|end_char=13
+4	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=8|end_char=10
+5	n't	not	PART	RB	Polarity=Neg	6	advmod	_	start_char=10|end_char=13
+6	want	want	VERB	VB	VerbForm=Inf	0	root	_	start_char=14|end_char=18
+7	to	to	PART	TO	_	8	mark	_	start_char=19|end_char=21
+8	label	label	VERB	VB	VerbForm=Inf	6	xcomp	_	SpacesAfter=\s\s|start_char=22|end_char=27
+9	these	this	DET	DT	Number=Plur|PronType=Dem	10	det	_	start_char=29|end_char=34
+10	things	thing	NOUN	NNS	Number=Plur	8	obj	_	SpaceAfter=No|start_char=35|end_char=41
+11	,	,	PUNCT	,	_	12	punct	_	start_char=41|end_char=42
+12	but	but	CCONJ	CC	_	6	conj	_	SpaceAfter=No|start_char=43|end_char=46
+13	...	...	PUNCT	.	_	6	punct	_	SpaceAfter=No|start_char=46|end_char=49
+
+# text = What happened last night, it was last night, wasn't it?
+# sent_id = 552
+1	What	what	PRON	WP	PronType=Int	2	nsubj	_	start_char=0|end_char=4
+2	happened	happen	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=5|end_char=13
+3	last	last	ADJ	JJ	Degree=Pos	4	amod	_	start_char=14|end_char=18
+4	night	night	NOUN	NN	Number=Sing	2	obl:unmarked	_	SpaceAfter=No|start_char=19|end_char=24
+5	,	,	PUNCT	,	_	9	punct	_	SpacesAfter=\s\s|start_char=24|end_char=25
+6	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	start_char=27|end_char=29
+7	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	cop	_	start_char=30|end_char=33
+8	last	last	ADJ	JJ	Degree=Pos	9	amod	_	start_char=34|end_char=38
+9	night	night	NOUN	NN	Number=Sing	2	parataxis	_	SpaceAfter=No|start_char=39|end_char=44
+10	,	,	PUNCT	,	_	9	punct	_	start_char=44|end_char=45
+11-12	wasn't	_	_	_	_	_	_	_	start_char=46|end_char=52
+11	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	cop	_	start_char=46|end_char=49
+12	n't	not	PART	RB	Polarity=Neg	13	advmod	_	start_char=49|end_char=52
+13	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	SpaceAfter=No|start_char=53|end_char=55
+14	?	?	PUNCT	.	_	9	punct	_	SpaceAfter=No|start_char=55|end_char=56
+
+# text = Yes, it was what it was.
+# sent_id = 553
+1	Yes	yes	INTJ	UH	Polarity=Pos	5	discourse	_	SpaceAfter=No|start_char=0|end_char=3
+2	,	,	PUNCT	,	_	1	punct	_	start_char=3|end_char=4
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	start_char=5|end_char=7
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	start_char=8|end_char=11
+5	what	what	PRON	WP	PronType=Rel	0	root	_	start_char=12|end_char=16
+6	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	start_char=17|end_char=19
+7	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	acl:relcl	_	SpaceAfter=No|start_char=20|end_char=23
+8	.	.	PUNCT	.	_	5	punct	_	SpaceAfter=No|start_char=23|end_char=24
+
+# text = And that's it.
+# sent_id = 554
+1	And	and	CCONJ	CC	_	4	cc	_	start_char=0|end_char=3
+2-3	that's	_	_	_	_	_	_	_	start_char=4|end_char=10
+2	that	that	PRON	DT	Number=Sing|PronType=Dem	4	nsubj	_	start_char=4|end_char=8
+3	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=8|end_char=10
+4	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	root	_	SpaceAfter=No|start_char=11|end_char=13
+5	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No|start_char=13|end_char=14
+
+# text = Tell me one thing...
+# sent_id = 555
+1	Tell	tell	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	start_char=0|end_char=4
+2	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	iobj	_	start_char=5|end_char=7
+3	one	one	NUM	CD	NumForm=Word|NumType=Card	4	nummod	_	start_char=8|end_char=11
+4	thing	thing	NOUN	NN	Number=Sing	1	obj	_	SpaceAfter=No|start_char=12|end_char=17
+5	...	...	PUNCT	.	_	1	punct	_	SpaceAfter=No|start_char=17|end_char=20
+
+# text = what happened last night...
+# sent_id = 556
+1	what	what	PRON	WP	PronType=Int	2	nsubj	_	start_char=0|end_char=4
+2	happened	happen	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=5|end_char=13
+3	last	last	ADJ	JJ	Degree=Pos	4	amod	_	start_char=14|end_char=18
+4	night	night	NOUN	NN	Number=Sing	2	obl:unmarked	_	SpaceAfter=No|start_char=19|end_char=24
+5	...	...	PUNCT	.	_	2	punct	_	SpaceAfter=No|start_char=24|end_char=27
+
+# text = Did you do it because you wanted to...
+# sent_id = 557
+1	Did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	3	aux	_	start_char=0|end_char=3
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	start_char=4|end_char=7
+3	do	do	VERB	VB	VerbForm=Inf	0	root	_	start_char=8|end_char=10
+4	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	obj	_	start_char=11|end_char=13
+5	because	because	SCONJ	IN	_	7	mark	_	start_char=14|end_char=21
+6	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	nsubj	_	start_char=22|end_char=25
+7	wanted	want	VERB	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	3	advcl	_	start_char=26|end_char=32
+8	to	to	PART	TO	_	7	xcomp	_	SpaceAfter=No|start_char=33|end_char=35
+9	...	...	PUNCT	.	_	3	punct	_	SpaceAfter=No|start_char=35|end_char=38
+
+# text = or is it about the guy we ran into last night?
+# sent_id = 558
+1	or	or	CCONJ	CC	_	6	cc	_	start_char=0|end_char=2
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=3|end_char=5
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	start_char=6|end_char=8
+4	about	about	ADP	IN	_	6	case	_	start_char=9|end_char=14
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	start_char=15|end_char=18
+6	guy	guy	NOUN	NN	Number=Sing	0	root	_	SpacesAfter=\s\s|start_char=19|end_char=22
+7	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj	_	start_char=24|end_char=26
+8	ran	run	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	6	acl:relcl	_	start_char=27|end_char=30
+9	into	into	ADP	IN	_	11	case	_	start_char=31|end_char=35
+10	last	last	ADJ	JJ	Degree=Pos	11	amod	_	start_char=36|end_char=40
+11	night	night	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No|start_char=41|end_char=46
+12	?	?	PUNCT	.	_	6	punct	_	SpaceAfter=No|start_char=46|end_char=47
+
+# text = What was his name?
+# sent_id = 559
+1	What	what	PRON	WP	PronType=Int	0	root	_	start_char=0|end_char=4
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	cop	_	start_char=5|end_char=8
+3	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	_	start_char=9|end_char=12
+4	name	name	NOUN	NN	Number=Sing	1	nsubj	_	SpaceAfter=No|start_char=13|end_char=17
+5	?	?	PUNCT	.	_	1	punct	_	SpaceAfter=No|start_char=17|end_char=18
+
+# text = Javier?
+# sent_id = 560
+1	Javier	Javier	PROPN	NNP	Number=Sing	0	root	_	SpaceAfter=No|start_char=0|end_char=6
+2	?	?	PUNCT	.	_	1	punct	_	SpaceAfter=No|start_char=6|end_char=7
+
+# text = I thought so.
+# sent_id = 561
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=0|end_char=1
+2	thought	think	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=2|end_char=9
+3	so	so	ADV	RB	_	2	advmod	_	SpaceAfter=No|start_char=10|end_char=12
+4	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No|start_char=12|end_char=13
+

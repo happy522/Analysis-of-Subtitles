@@ -1,0 +1,686 @@
+# text = Ricky Lamas es visión.
+# sent_id = 1
+1	Ricky	ricky	PROPN	np00000	_	4	nsubj	_	start_char=0|end_char=5
+2	Lamas	lamas	PROPN	_	_	1	flat	_	start_char=6|end_char=11
+3	es	ser	AUX	vsip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=12|end_char=14
+4	visión	visión	NOUN	ncfs000	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|start_char=15|end_char=21
+5	.	.	PUNCT	fp	PunctType=Peri	4	punct	_	SpaceAfter=No|start_char=21|end_char=22
+
+# text = Ricky Lamas es pasión.
+# sent_id = 2
+1	Ricky	ricky	PROPN	np00000	_	4	nsubj	_	start_char=0|end_char=5
+2	Lamas	lamas	PROPN	_	_	1	flat	_	start_char=6|end_char=11
+3	es	ser	AUX	vsip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=12|end_char=14
+4	pasión	pasión	NOUN	ncfs000	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|start_char=15|end_char=21
+5	.	.	PUNCT	fp	PunctType=Peri	4	punct	_	SpaceAfter=No|start_char=21|end_char=22
+
+# text = Ricky Lamas es una fuente de contribución para el espíritu humano.
+# sent_id = 3
+1	Ricky	ricky	PROPN	np00000	_	5	nsubj	_	start_char=0|end_char=5
+2	Lamas	lamas	PROPN	_	_	1	flat	_	start_char=6|end_char=11
+3	es	ser	AUX	vsip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=12|end_char=14
+4	una	uno	DET	di0fs0	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=15|end_char=18
+5	fuente	fuente	NOUN	ncfs000	Gender=Fem|Number=Sing	0	root	_	start_char=19|end_char=25
+6	de	de	ADP	sps00	_	7	case	_	start_char=26|end_char=28
+7	contribución	contribución	NOUN	ncfs000	Gender=Fem|Number=Sing	5	nmod	_	SpacesAfter=\s\s|start_char=29|end_char=41
+8	para	para	ADP	sps00	_	10	case	_	start_char=43|end_char=47
+9	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	start_char=48|end_char=50
+10	espíritu	espíritu	NOUN	ncms000	Gender=Masc|Number=Sing	5	nmod	_	start_char=51|end_char=59
+11	humano	humano	ADJ	aq0ms0	Gender=Masc|Number=Sing	10	amod	_	SpaceAfter=No|start_char=60|end_char=66
+12	.	.	PUNCT	fp	PunctType=Peri	5	punct	_	SpaceAfter=No|start_char=66|end_char=67
+
+# text = Ricky Lamas es el futuro.
+# sent_id = 4
+1	Ricky	ricky	PROPN	np00000	_	5	nsubj	_	start_char=0|end_char=5
+2	Lamas	lamas	PROPN	_	_	1	flat	_	start_char=6|end_char=11
+3	es	ser	AUX	vsip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=12|end_char=14
+4	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=15|end_char=17
+5	futuro	futuro	NOUN	ncms000	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|start_char=18|end_char=24
+6	.	.	PUNCT	fp	PunctType=Peri	5	punct	_	SpaceAfter=No|start_char=24|end_char=25
+
+# text = Ricky Lamas es Miami Lamas Venture Capital.
+# sent_id = 5
+1	Ricky	ricky	PROPN	np00000	_	4	nsubj	_	start_char=0|end_char=5
+2	Lamas	lamas	PROPN	_	_	1	flat	_	start_char=6|end_char=11
+3	es	ser	AUX	vsip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	SpacesAfter=\s\s|start_char=12|end_char=14
+4	Miami	Miami	PROPN	np00000	_	0	root	_	start_char=16|end_char=21
+5	Lamas	lamas	PROPN	_	_	4	flat	_	start_char=22|end_char=27
+6	Venture	venture	PROPN	_	_	4	flat	_	start_char=28|end_char=35
+7	Capital	capital	PROPN	_	_	4	flat	_	SpaceAfter=No|start_char=36|end_char=43
+8	.	.	PUNCT	fp	PunctType=Peri	4	punct	_	SpaceAfter=No|start_char=43|end_char=44
+
+# text = Lo comunico con Ricky Lamas.
+# sent_id = 6
+1	Lo	él	PRON	pp3msa00	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	2	obj	_	start_char=0|end_char=2
+2	comunico	comunicar	VERB	vmip1s0	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3|end_char=11
+3	con	con	ADP	sps00	_	4	case	_	start_char=12|end_char=15
+4	Ricky	ricky	PROPN	np00000	_	2	obl	_	start_char=16|end_char=21
+5	Lamas	lamas	PROPN	_	_	4	flat	_	SpaceAfter=No|start_char=22|end_char=27
+6	.	.	PUNCT	fp	PunctType=Peri	2	punct	_	SpaceAfter=No|start_char=27|end_char=28
+
+# text = - Habla Lamas. ¡Soy todo oídos! - Sr. Lamas, habla Chava.
+# sent_id = 7
+1	-	-	PUNCT	fg	PunctType=Dash	2	punct	_	start_char=0|end_char=1
+2	Habla	hablar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	ccomp	_	start_char=2|end_char=7
+3	Lamas	lamas	PROPN	np00000	_	2	nsubj	_	SpaceAfter=No|start_char=8|end_char=13
+4	.	.	PUNCT	fp	PunctType=Peri	2	punct	_	start_char=13|end_char=14
+5	¡	¡	PUNCT	faa	PunctSide=Ini|PunctType=Excl	8	punct	_	SpaceAfter=No|start_char=15|end_char=16
+6	Soy	ser	AUX	vsip1s0	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=16|end_char=19
+7	todo	todo	DET	di0ms0	Gender=Masc|Number=Sing|PronType=Tot	8	det	_	start_char=20|end_char=24
+8	oídos	oído	NOUN	ncmp000	Gender=Masc|Number=Plur	2	advcl	_	SpaceAfter=No|start_char=25|end_char=30
+9	!	!	PUNCT	fat	PunctSide=Fin|PunctType=Excl	8	punct	_	SpacesAfter=\s\s|start_char=30|end_char=31
+10	-	-	PUNCT	fg	PunctType=Dash	8	punct	_	start_char=33|end_char=34
+11	Sr.	sr.	PROPN	np00000	_	8	appos	_	start_char=35|end_char=38
+12	Lamas	lamas	PROPN	_	_	11	flat	_	SpaceAfter=No|start_char=39|end_char=44
+13	,	,	PUNCT	fc	PunctType=Comm	2	punct	_	start_char=44|end_char=45
+14	habla	hablar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=46|end_char=51
+15	Chava	Chava	PROPN	np00000	_	14	nsubj	_	SpaceAfter=No|start_char=52|end_char=57
+16	.	.	PUNCT	fp	PunctType=Peri	14	punct	_	SpaceAfter=No|start_char=57|end_char=58
+
+# text = Nos conocimos en su fiesta, en Acapulco.
+# sent_id = 8
+1	Nos	yo	PRON	pp1cp000	Case=Dat|Number=Plur|Person=1|PrepCase=Npr|PronType=Prs	2	expl:pv	_	start_char=0|end_char=3
+2	conocimos	conocer	VERB	vmip1p0	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4|end_char=13
+3	en	en	ADP	sps00	_	5	case	_	start_char=14|end_char=16
+4	su	su	DET	dp3cs0	Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	det	_	start_char=17|end_char=19
+5	fiesta	fiesta	NOUN	ncfs000	Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No|start_char=20|end_char=26
+6	,	,	PUNCT	fc	PunctType=Comm	8	punct	_	start_char=26|end_char=27
+7	en	en	ADP	sps00	_	8	case	_	start_char=28|end_char=30
+8	Acapulco	Acapulco	PROPN	np00000	_	2	obl	_	SpaceAfter=No|start_char=31|end_char=39
+9	.	.	PUNCT	fp	PunctType=Peri	2	punct	_	SpaceAfter=No|start_char=39|end_char=40
+
+# text = Quería hablarle sobre mi casino.
+# sent_id = 9
+1	Quería	querer	VERB	vmii3s0	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	start_char=0|end_char=6
+2-3	hablarle	_	_	_	_	_	_	_	start_char=7|end_char=15
+2	hablar	hablar	VERB	vmn0000	VerbForm=Inf	1	xcomp	_	start_char=7|end_char=13
+3	le	él	PRON	_	Case=Dat|Number=Sing|Person=3|PronType=Prs	2	obl:arg	_	start_char=13|end_char=15
+4	sobre	sobre	ADP	sps00	_	6	case	_	start_char=16|end_char=21
+5	mi	mi	DET	dp1css	Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	6	det	_	start_char=22|end_char=24
+6	casino	casino	NOUN	ncms000	Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No|start_char=25|end_char=31
+7	.	.	PUNCT	fp	PunctType=Peri	1	punct	_	SpaceAfter=No|start_char=31|end_char=32
+
+# text = - Es una oportunidad en México que... - ¿Quién eres? ¿Un casino?
+# sent_id = 10
+1	-	-	PUNCT	fg	PunctType=Dash	4	punct	_	start_char=0|end_char=1
+2	Es	ser	AUX	vsip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=2|end_char=4
+3	una	uno	DET	di0fs0	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=5|end_char=8
+4	oportunidad	oportunidad	NOUN	ncfs000	Gender=Fem|Number=Sing	0	root	_	start_char=9|end_char=20
+5	en	en	ADP	sps00	_	6	case	_	start_char=21|end_char=23
+6	México	méxico	PROPN	np00000	_	4	nmod	_	start_char=24|end_char=30
+7	que	que	SCONJ	cs	_	16	mark	_	SpaceAfter=No|start_char=31|end_char=34
+8	...	...	PUNCT	fs	PunctType=Elip	16	punct	_	SpacesAfter=\s\s|start_char=34|end_char=37
+9	-	-	PUNCT	fg	PunctType=Dash	16	punct	_	start_char=39|end_char=40
+10	¿	¿	PUNCT	fia	PunctSide=Ini|PunctType=Qest	16	punct	_	SpaceAfter=No|start_char=41|end_char=42
+11	Quién	quién	PRON	pt0cs000	Number=Sing|PronType=Int	16	nsubj	_	start_char=42|end_char=47
+12	eres	ser	AUX	vmip1s0	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	16	cop	_	SpaceAfter=No|start_char=48|end_char=52
+13	?	?	PUNCT	fit	PunctSide=Fin|PunctType=Qest	16	punct	_	start_char=52|end_char=53
+14	¿	¿	PUNCT	fia	PunctSide=Ini|PunctType=Qest	16	punct	_	SpaceAfter=No|start_char=54|end_char=55
+15	Un	uno	DET	di0ms0	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	start_char=55|end_char=57
+16	casino	casino	NOUN	ncms000	Gender=Masc|Number=Sing	4	parataxis	_	SpaceAfter=No|start_char=58|end_char=64
+17	?	?	PUNCT	fit	PunctSide=Fin|PunctType=Qest	4	punct	_	SpaceAfter=No|start_char=64|end_char=65
+
+# text = Nos vemos en la Ciudad de México. Tienes 20 minutos.
+# sent_id = 11
+1	Nos	yo	PRON	pp1cp000	Case=Dat|Number=Plur|Person=1|PrepCase=Npr|PronType=Prs	2	expl:pv	_	start_char=0|end_char=3
+2	vemos	ver	VERB	vmip1p0	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4|end_char=9
+3	en	en	ADP	sps00	_	5	case	_	start_char=10|end_char=12
+4	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	start_char=13|end_char=15
+5	Ciudad	ciudad	PROPN	np00000	_	2	obl	_	start_char=16|end_char=22
+6	de	de	ADP	_	_	7	case	_	start_char=23|end_char=25
+7	México	méxico	PROPN	_	_	5	flat	_	SpaceAfter=No|start_char=26|end_char=32
+8	.	.	PUNCT	fp	PunctType=Peri	2	punct	_	SpacesAfter=\s\s|start_char=32|end_char=33
+9	Tienes	tener	VERB	vmip2s0	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	advcl	_	start_char=35|end_char=41
+10	20	20	NUM	_	NumForm=Digit|NumType=Card	11	nummod	_	start_char=42|end_char=44
+11	minutos	minuto	NOUN	ncmp000	Gender=Masc|Number=Plur	9	obj	_	SpaceAfter=No|start_char=45|end_char=52
+12	.	.	PUNCT	fp	PunctType=Peri	2	punct	_	SpaceAfter=No|start_char=52|end_char=53
+
+# text = ¿Hola? Okey.
+# sent_id = 12
+1	¿	¿	PUNCT	fia	PunctSide=Ini|PunctType=Qest	2	punct	_	SpaceAfter=No|start_char=0|end_char=1
+2	Hola	hola	INTJ	_	_	0	root	_	SpaceAfter=No|start_char=1|end_char=5
+3	?	?	PUNCT	fit	PunctSide=Fin|PunctType=Qest	2	punct	_	start_char=5|end_char=6
+4	Okey	okey	PROPN	np00000	_	2	appos	_	SpaceAfter=No|start_char=7|end_char=11
+5	.	.	PUNCT	fp	PunctType=Peri	2	punct	_	SpaceAfter=No|start_char=11|end_char=12
+
+# text = Con base en eso, concluimos que ofrecemos un high concept que es muy appealing a la cultura mexicana
+# sent_id = 13
+1	Con	con	ADP	sps00	_	2	case	_	start_char=0|end_char=3
+2	base	base	NOUN	nccs000	Number=Sing	6	obl	_	start_char=4|end_char=8
+3	en	en	ADP	sps00	_	4	case	_	start_char=9|end_char=11
+4	eso	ese	PRON	pd0ns000	Number=Sing|PronType=Dem	2	nmod	_	SpaceAfter=No|start_char=12|end_char=15
+5	,	,	PUNCT	fc	PunctType=Comm	2	punct	_	start_char=15|end_char=16
+6	concluimos	concluir	VERB	vmip1p0	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpacesAfter=\s\s|start_char=17|end_char=27
+7	que	que	SCONJ	cs	_	8	mark	_	start_char=29|end_char=32
+8	ofrecemos	ofrecer	VERB	vmip1p0	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	ccomp	_	start_char=33|end_char=42
+9	un	uno	DET	di0ms0	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	start_char=43|end_char=45
+10	high	high	NOUN	ncms000	Gender=Masc|Number=Sing	8	obj	_	start_char=46|end_char=50
+11	concept	concept	NOUN	_	_	10	flat	_	SpacesAfter=\s\s|start_char=51|end_char=58
+12	que	que	PRON	pr0cn000	PronType=Rel	15	mark	_	start_char=60|end_char=63
+13	es	ser	AUX	vsip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	start_char=64|end_char=66
+14	muy	mucho	ADV	rg	_	15	advmod	_	start_char=67|end_char=70
+15	appealing	appealing	NOUN	ncms000	Number=Sing	10	acl:relcl	_	SpacesAfter=\s\s|start_char=71|end_char=80
+16	a	a	ADP	sps00	_	18	case	_	start_char=82|end_char=83
+17	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	start_char=84|end_char=86
+18	cultura	cultura	NOUN	ncfs000	Gender=Fem|Number=Sing	15	nmod	_	start_char=87|end_char=94
+19	mexicana	mexicano	ADJ	aq0fs0	Gender=Fem|Number=Sing	18	amod	_	SpaceAfter=No|start_char=95|end_char=103
+
+# text = en la que además tenemos atracciones para los adultos y animales salvajes en el lobby para complacer a los niños.
+# sent_id = 14
+1	en	en	ADP	sps00	_	3	case	_	start_char=0|end_char=2
+2	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=3|end_char=5
+3	que	que	PRON	pr0cn000	PronType=Rel	5	obl	_	start_char=6|end_char=9
+4	además	además	ADV	rg	_	5	advmod	_	SpacesAfter=\s\s|start_char=10|end_char=16
+5	tenemos	tener	VERB	vmip1p0	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=18|end_char=25
+6	atracciones	atracción	NOUN	ncfp000	Gender=Fem|Number=Plur	5	obj	_	start_char=26|end_char=37
+7	para	para	ADP	sps00	_	9	case	_	start_char=38|end_char=42
+8	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	start_char=43|end_char=46
+9	adultos	adulto	NOUN	ncmp000	Gender=Masc|Number=Plur	6	nmod	_	SpacesAfter=\s\s|start_char=47|end_char=54
+10	y	y	CCONJ	cc	_	11	cc	_	start_char=56|end_char=57
+11	animales	animal	NOUN	ncmp000	Gender=Masc|Number=Plur	9	conj	_	start_char=58|end_char=66
+12	salvajes	salvaje	ADJ	aq0cp0	Number=Plur	11	amod	_	start_char=67|end_char=75
+13	en	en	ADP	sps00	_	15	case	_	start_char=76|end_char=78
+14	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	start_char=79|end_char=81
+15	lobby	lobby	NOUN	ncms000	Gender=Masc|Number=Sing	5	obl	_	SpacesAfter=\s\s|start_char=82|end_char=87
+16	para	para	ADP	sps00	_	17	mark	_	start_char=89|end_char=93
+17	complacer	complacer	VERB	vmn0000	VerbForm=Inf	5	advcl	_	start_char=94|end_char=103
+18	a	a	ADP	sps00	_	20	case	_	start_char=104|end_char=105
+19	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	start_char=106|end_char=109
+20	niños	niño	NOUN	ncmp000	Gender=Masc|Number=Plur	17	obj	_	SpaceAfter=No|start_char=110|end_char=115
+21	.	.	PUNCT	fp	PunctType=Peri	5	punct	_	SpaceAfter=No|start_char=115|end_char=116
+
+# text = ¡You're a fucking retard!
+# sent_id = 15
+1	¡	¡	PUNCT	faa	PunctSide=Ini|PunctType=Excl	2	punct	_	SpaceAfter=No|start_char=0|end_char=1
+2	You're	you're	PROPN	np00000	_	0	root	_	start_char=1|end_char=7
+3	a	a	PROPN	_	_	2	flat	_	start_char=8|end_char=9
+4	fucking	fucking	PROPN	_	_	2	flat	_	start_char=10|end_char=17
+5	retard	retard	PROPN	_	_	2	flat	_	SpaceAfter=No|start_char=18|end_char=24
+6	!	!	PUNCT	fat	PunctSide=Fin|PunctType=Excl	2	punct	_	SpaceAfter=No|start_char=24|end_char=25
+
+# text = - ¿Qué te pasa, güey? - ¿Cómo? No... Perdón, señor Lamas.
+# sent_id = 16
+1	-	-	PUNCT	fg	PunctType=Dash	5	punct	_	start_char=0|end_char=1
+2	¿	¿	PUNCT	fia	PunctSide=Ini|PunctType=Qest	5	punct	_	SpaceAfter=No|start_char=2|end_char=3
+3	Qué	qué	PRON	pt0cs000	Number=Sing|PronType=Int	5	nsubj	_	start_char=3|end_char=6
+4	te	tú	PRON	pp2cs000	Case=Dat|Number=Sing|Person=2|PrepCase=Npr|PronType=Prs	5	obl:arg	_	start_char=7|end_char=9
+5	pasa	pasar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|start_char=10|end_char=14
+6	,	,	PUNCT	fc	PunctType=Comm	7	punct	_	start_char=14|end_char=15
+7	güey	güey	NOUN	ncms000	Gender=Masc|Number=Sing	5	dep	_	SpaceAfter=No|start_char=16|end_char=20
+8	?	?	PUNCT	fit	PunctSide=Fin|PunctType=Qest	7	punct	_	SpacesAfter=\s\s|start_char=20|end_char=21
+9	-	-	PUNCT	fg	PunctType=Dash	11	punct	_	start_char=23|end_char=24
+10	¿	¿	PUNCT	fia	PunctSide=Ini|PunctType=Qest	11	punct	_	SpaceAfter=No|start_char=25|end_char=26
+11	Cómo	cómo	PRON	pt000000	PronType=Ind	5	dep	_	SpaceAfter=No|start_char=26|end_char=30
+12	?	?	PUNCT	fit	PunctSide=Fin|PunctType=Qest	11	punct	_	start_char=30|end_char=31
+13	No	no	ADV	rn	Polarity=Neg	11	advmod	_	SpaceAfter=No|start_char=32|end_char=34
+14	...	...	PUNCT	fs	PunctType=Elip	11	punct	_	start_char=34|end_char=37
+15	Perdón	perdón	PROPN	np00000	_	5	obj	_	SpaceAfter=No|start_char=38|end_char=44
+16	,	,	PUNCT	fc	PunctType=Comm	17	punct	_	start_char=44|end_char=45
+17	señor	señor	NOUN	ncms000	Gender=Masc|Number=Sing	15	appos	_	start_char=46|end_char=51
+18	Lamas	lamas	PROPN	np00000	_	17	appos	_	SpaceAfter=No|start_char=52|end_char=57
+19	.	.	PUNCT	fp	PunctType=Peri	5	punct	_	SpaceAfter=No|start_char=57|end_char=58
+
+# text = Shh...
+# sent_id = 17
+1	Shh...	shh...	PUNCT	fe	PunctType=Quot	0	root	_	SpaceAfter=No|start_char=0|end_char=6
+
+# text = No, sí. I'll call you later.
+# sent_id = 18
+1	No	no	ADV	rn	Polarity=Neg	0	root	_	SpaceAfter=No|start_char=0|end_char=2
+2	,	,	PUNCT	fc	PunctType=Comm	1	punct	_	start_char=2|end_char=3
+3	sí	sí	INTJ	rg	_	1	advcl	_	SpaceAfter=No|start_char=4|end_char=6
+4	.	.	PUNCT	fp	PunctType=Peri	3	punct	_	SpacesAfter=\s\s|start_char=6|end_char=7
+5	I'll	i'll	PROPN	np00000	_	1	appos	_	start_char=9|end_char=13
+6	call	call	PROPN	_	_	5	flat	_	start_char=14|end_char=18
+7	you	you	PROPN	_	_	5	flat	_	start_char=19|end_char=22
+8	later	later	PROPN	_	_	5	flat	_	SpaceAfter=No|start_char=23|end_char=28
+9	.	.	PUNCT	fp	PunctType=Peri	1	punct	_	SpaceAfter=No|start_char=28|end_char=29
+
+# text = Te llamo en un rato. ¡Fucking Christ!
+# sent_id = 19
+1	Te	tú	PRON	pp2cs000	Case=Dat|Number=Sing|Person=2|PrepCase=Npr|PronType=Prs	2	expl:pv	_	start_char=0|end_char=2
+2	llamo	llamar	VERB	vmip1s0	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3|end_char=8
+3	en	en	ADP	sps00	_	5	case	_	start_char=9|end_char=11
+4	un	uno	DET	di0ms0	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	start_char=12|end_char=14
+5	rato	rato	NOUN	ncms000	Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No|start_char=15|end_char=19
+6	.	.	PUNCT	fp	PunctType=Peri	2	punct	_	SpacesAfter=\s\s|start_char=19|end_char=20
+7	¡	¡	PUNCT	faa	PunctSide=Ini|PunctType=Excl	8	punct	_	SpaceAfter=No|start_char=22|end_char=23
+8	Fucking	fucking	PROPN	np00000	_	2	parataxis	_	start_char=23|end_char=30
+9	Christ	christ	PROPN	_	_	8	flat	_	SpaceAfter=No|start_char=31|end_char=37
+10	!	!	PUNCT	fat	PunctSide=Fin|PunctType=Excl	8	punct	_	SpaceAfter=No|start_char=37|end_char=38
+
+# text = ¡Guau!
+# sent_id = 20
+1	¡	¡	PUNCT	faa	PunctSide=Ini|PunctType=Excl	2	punct	_	SpaceAfter=No|start_char=0|end_char=1
+2	Guau	guau	PROPN	np00000	_	0	root	_	SpaceAfter=No|start_char=1|end_char=5
+3	!	!	PUNCT	fat	PunctSide=Fin|PunctType=Excl	2	punct	_	SpaceAfter=No|start_char=5|end_char=6
+
+# text = ¿Así pitchan negocios en provincia?
+# sent_id = 21
+1	¿	¿	PUNCT	fia	PunctSide=Ini|PunctType=Qest	3	punct	_	SpaceAfter=No|start_char=0|end_char=1
+2	Así	así	ADV	rg	_	3	advmod	_	start_char=1|end_char=4
+3	pitchan	pitchar	VERB	vmip3p0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5|end_char=12
+4	negocios	negocio	NOUN	ncmp000	Gender=Masc|Number=Plur	3	nsubj	_	start_char=13|end_char=21
+5	en	en	ADP	sps00	_	6	case	_	start_char=22|end_char=24
+6	provincia	provincia	NOUN	ncfs000	Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No|start_char=25|end_char=34
+7	?	?	PUNCT	fit	PunctSide=Fin|PunctType=Qest	3	punct	_	SpaceAfter=No|start_char=34|end_char=35
+
+# text = Unbelievable. En serio.
+# sent_id = 22
+1	Unbelievable	Unbelievable	PROPN	np00000	_	0	root	_	SpaceAfter=No|start_char=0|end_char=12
+2	.	.	PUNCT	fp	PunctType=Peri	1	punct	_	start_char=12|end_char=13
+3	En	en	ADP	rg	_	1	advmod	_	start_char=14|end_char=16
+4	serio	serio	NOUN	_	_	3	fixed	_	SpaceAfter=No|start_char=17|end_char=22
+5	.	.	PUNCT	fp	PunctType=Peri	1	punct	_	SpaceAfter=No|start_char=22|end_char=23
+
+# text = Falta mostrarle las proyecciones financieras.
+# sent_id = 23
+1	Falta	faltar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=0|end_char=5
+2-3	mostrarle	_	_	_	_	_	_	_	SpacesAfter=\s\s|start_char=6|end_char=15
+2	mostrar	mostrar	VERB	vmn0000	VerbForm=Inf	1	csubj	_	start_char=6|end_char=13
+3	le	él	PRON	_	Case=Dat|Number=Sing|Person=3|PronType=Prs	2	expl	_	start_char=13|end_char=15
+4	las	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	start_char=17|end_char=20
+5	proyecciones	proyección	NOUN	ncfp000	Gender=Fem|Number=Plur	2	obj	_	start_char=21|end_char=33
+6	financieras	financiero	ADJ	aq0fp0	Gender=Fem|Number=Plur	5	amod	_	SpaceAfter=No|start_char=34|end_char=45
+7	.	.	PUNCT	fp	PunctType=Peri	1	punct	_	SpaceAfter=No|start_char=45|end_char=46
+
+# text = - Mira, papo... - ...JP está muy...
+# sent_id = 24
+1	-	-	PUNCT	fg	PunctType=Dash	2	punct	_	start_char=0|end_char=1
+2	Mira	Mira	PROPN	np00000	_	8	nsubj	_	SpaceAfter=No|start_char=2|end_char=6
+3	,	,	PUNCT	fc	PunctType=Comm	4	punct	_	start_char=6|end_char=7
+4	papo	papo	NOUN	ncms000	Gender=Masc|Number=Sing	2	appos	_	SpaceAfter=No|start_char=8|end_char=12
+5	...	...	PUNCT	fs	PunctType=Elip	2	punct	_	SpacesAfter=\s\s|start_char=12|end_char=15
+6	-	-	PUNCT	fg	PunctType=Dash	2	punct	_	start_char=17|end_char=18
+7	...JP	...jp	PROPN	np00000	_	8	nsubj	_	start_char=19|end_char=24
+8	está	estar	AUX	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=25|end_char=29
+9	muy	mucho	ADV	rg	_	8	advmod	_	SpaceAfter=No|start_char=30|end_char=33
+10	...	...	PUNCT	fs	PunctType=Elip	8	punct	_	SpaceAfter=No|start_char=33|end_char=36
+
+# text = Veo el gravy, pero no veo el chicken.
+# sent_id = 25
+1	Veo	ver	VERB	vmip1s0	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=0|end_char=3
+2	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	start_char=4|end_char=6
+3	gravy	gravy	NOUN	ncms000	Gender=Masc|Number=Sing	1	obj	_	SpaceAfter=No|start_char=7|end_char=12
+4	,	,	PUNCT	fc	PunctType=Comm	7	punct	_	start_char=12|end_char=13
+5	pero	pero	CCONJ	cc	_	7	cc	_	start_char=14|end_char=18
+6	no	no	ADV	rn	Polarity=Neg	7	advmod	_	start_char=19|end_char=21
+7	veo	ver	VERB	vmip1s0	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	conj	_	start_char=22|end_char=25
+8	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	start_char=26|end_char=28
+9	chicken	chicken	NOUN	ncms000	Gender=Masc|Number=Sing	7	obj	_	SpaceAfter=No|start_char=29|end_char=36
+10	.	.	PUNCT	fp	PunctType=Peri	1	punct	_	SpaceAfter=No|start_char=36|end_char=37
+
+# text = No me hables de números, dime lo que te hace el body tingle.
+# sent_id = 26
+1	No	no	ADV	rn	Polarity=Neg	3	advmod	_	start_char=0|end_char=2
+2	me	yo	PRON	pp1cs000	Case=Dat|Number=Sing|Person=1|PrepCase=Npr|PronType=Prs	3	expl:pv	_	start_char=3|end_char=5
+3	hables	hablar	VERB	vmip1s0	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6|end_char=12
+4	de	de	ADP	sps00	_	5	case	_	start_char=13|end_char=15
+5	números	número	NOUN	ncmp000	Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No|start_char=16|end_char=23
+6	,	,	PUNCT	fc	PunctType=Comm	7	punct	_	SpacesAfter=\s\s|start_char=23|end_char=24
+7	dime	decir	VERB	vmip1s0	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	advcl	_	start_char=26|end_char=30
+8	lo	él	PRON	da0ns0	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	7	obj	_	start_char=31|end_char=33
+9	que	que	PRON	pr0cn000	PronType=Rel	11	mark	_	start_char=34|end_char=37
+10	te	tú	PRON	pp2cs000	Case=Dat|Number=Sing|Person=2|PrepCase=Npr|PronType=Prs	11	obl:arg	_	start_char=38|end_char=40
+11	hace	hacer	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	start_char=41|end_char=45
+12	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	start_char=46|end_char=48
+13	body	body	NOUN	ncms000	Gender=Masc|Number=Sing	11	nsubj	_	start_char=49|end_char=53
+14	tingle	tingle	NOUN	_	_	13	flat	_	SpaceAfter=No|start_char=54|end_char=60
+15	.	.	PUNCT	fp	PunctType=Peri	3	punct	_	SpaceAfter=No|start_char=60|end_char=61
+
+# text = Chava, tell me, ¿cómo hice tanto dinero?
+# sent_id = 27
+1	Chava	Chava	PROPN	np00000	_	8	nsubj	_	SpaceAfter=No|start_char=0|end_char=5
+2	,	,	PUNCT	fc	PunctType=Comm	3	punct	_	start_char=5|end_char=6
+3	tell	tell	PROPN	np0000	_	1	flat	_	start_char=7|end_char=11
+4	me	yo	PRON	_	Case=Dat|Number=Sing|Person=1|PrepCase=Npr|PronType=Prs	3	flat	_	SpaceAfter=No|start_char=12|end_char=14
+5	,	,	PUNCT	fc	PunctType=Comm	3	punct	_	SpacesAfter=\s\s|start_char=14|end_char=15
+6	¿	¿	PUNCT	fia	PunctSide=Ini|PunctType=Qest	8	punct	_	SpaceAfter=No|start_char=17|end_char=18
+7	cómo	cómo	PRON	pt000000	PronType=Ind	8	obl	_	start_char=18|end_char=22
+8	hice	hacer	VERB	vmis1s0	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=23|end_char=27
+9	tanto	tanto	DET	di0ms0	Gender=Masc|Number=Sing|NumType=Card|PronType=Dem	10	det	_	start_char=28|end_char=33
+10	dinero	dinero	NOUN	ncms000	Gender=Masc|Number=Sing	8	obj	_	SpaceAfter=No|start_char=34|end_char=40
+11	?	?	PUNCT	fit	PunctSide=Fin|PunctType=Qest	8	punct	_	SpaceAfter=No|start_char=40|end_char=41
+
+# text = Ah, pues porque tu papá te heredó $23 millones.
+# sent_id = 28
+1	Ah	ah	INTJ	_	_	8	dep	_	SpaceAfter=No|start_char=0|end_char=2
+2	,	,	PUNCT	fc	PunctType=Comm	1	punct	_	start_char=2|end_char=3
+3	pues	pues	SCONJ	cs	_	8	mark	_	start_char=4|end_char=8
+4	porque	porque	SCONJ	cs	_	8	mark	_	SpacesAfter=\s\s|start_char=9|end_char=15
+5	tu	tu	DET	dp2css	Number=Sing|Number[psor]=Sing|Person=2|Poss=Yes|PronType=Prs	6	det	_	start_char=17|end_char=19
+6	papá	papá	NOUN	ncms000	Gender=Masc|Number=Sing	8	nsubj	_	start_char=20|end_char=24
+7	te	tú	PRON	pp2cs000	Case=Dat|Number=Sing|Person=2|PrepCase=Npr|PronType=Prs	8	obl:arg	_	start_char=25|end_char=27
+8	heredó	heredar	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=28|end_char=34
+9	$23	$23	NUM	_	NumForm=Digit|NumType=Card	10	nummod	_	start_char=35|end_char=38
+10	millones	millón	NOUN	ncmp000	Gender=Masc|Number=Plur	8	obj	_	SpaceAfter=No|start_char=39|end_char=47
+11	.	.	PUNCT	fp	PunctType=Peri	8	punct	_	SpaceAfter=No|start_char=47|end_char=48
+
+# text = Ese es su dinero, hablo de mi dinero. My money.
+# sent_id = 29
+1	Ese	ese	PRON	pd0ms000	Gender=Masc|Number=Sing|PronType=Dem	4	nsubj	_	start_char=0|end_char=3
+2	es	ser	AUX	vsip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=4|end_char=6
+3	su	su	DET	dp3cs0	Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	det	_	start_char=7|end_char=9
+4	dinero	dinero	NOUN	ncms000	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|start_char=10|end_char=16
+5	,	,	PUNCT	fc	PunctType=Comm	6	punct	_	SpacesAfter=\s\s|start_char=16|end_char=17
+6	hablo	hablar	VERB	vmip1s0	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	parataxis	_	start_char=19|end_char=24
+7	de	de	ADP	sps00	_	9	case	_	start_char=25|end_char=27
+8	mi	mi	DET	dp1css	Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	9	det	_	start_char=28|end_char=30
+9	dinero	dinero	NOUN	ncms000	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No|start_char=31|end_char=37
+10	.	.	PUNCT	fp	PunctType=Peri	4	punct	_	start_char=37|end_char=38
+11	My	my	PROPN	np00000	_	4	appos	_	start_char=39|end_char=41
+12	money	money	PROPN	_	_	11	flat	_	SpaceAfter=No|start_char=42|end_char=47
+13	.	.	PUNCT	fp	PunctType=Peri	4	punct	_	SpaceAfter=No|start_char=47|end_char=48
+
+# text = El que hice tras recibir la herencia.
+# sent_id = 30
+1	El	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	start_char=0|end_char=2
+2	que	que	PRON	pr0cn000	PronType=Rel	3	nsubj	_	start_char=3|end_char=6
+3	hice	hacer	VERB	vmis1s0	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=7|end_char=11
+4	tras	tras	ADP	sps00	_	5	mark	_	start_char=12|end_char=16
+5	recibir	recibir	VERB	vmn0000	VerbForm=Inf	3	advcl	_	start_char=17|end_char=24
+6	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	start_char=25|end_char=27
+7	herencia	herencia	NOUN	ncfs000	Gender=Fem|Number=Sing	5	obj	_	SpaceAfter=No|start_char=28|end_char=36
+8	.	.	PUNCT	fp	PunctType=Peri	3	punct	_	SpaceAfter=No|start_char=36|end_char=37
+
+# text = All $13.141519265359 billion dollars que tengo.
+# sent_id = 31
+1	All	all	PROPN	np00000	_	0	root	_	start_char=0|end_char=3
+2	$13.141519265359	$13.141519265399	PROPN	_	_	1	flat	_	start_char=4|end_char=20
+3	billion	billion	PROPN	_	_	1	flat	_	start_char=21|end_char=28
+4	dollars	dollars	PROPN	_	_	1	flat	_	SpacesAfter=\s\s|start_char=29|end_char=36
+5	que	que	PRON	pr0cn000	PronType=Rel	6	mark	_	start_char=38|end_char=41
+6	tengo	tener	VERB	vmip1s0	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	SpaceAfter=No|start_char=42|end_char=47
+7	.	.	PUNCT	fp	PunctType=Peri	1	punct	_	SpaceAfter=No|start_char=47|end_char=48
+
+# text = Eh, pues no sé, lo... ¿lo invertiste?
+# sent_id = 32
+1	Eh	eh	INTJ	_	_	5	dep	_	SpaceAfter=No|start_char=0|end_char=2
+2	,	,	PUNCT	fc	PunctType=Comm	5	punct	_	start_char=2|end_char=3
+3	pues	pues	SCONJ	cs	_	5	mark	_	start_char=4|end_char=8
+4	no	no	ADV	rn	Polarity=Neg	5	advmod	_	start_char=9|end_char=11
+5	sé	saber	VERB	vmip1s0	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|start_char=12|end_char=14
+6	,	,	PUNCT	fc	PunctType=Comm	7	punct	_	start_char=14|end_char=15
+7	lo	él	PRON	pp3msa00	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	5	obj	_	SpaceAfter=No|start_char=16|end_char=18
+8	...	...	PUNCT	fs	PunctType=Elip	11	punct	_	start_char=18|end_char=21
+9	¿	¿	PUNCT	fia	PunctSide=Ini|PunctType=Qest	11	punct	_	SpaceAfter=No|start_char=22|end_char=23
+10	lo	él	PRON	pp3msa00	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	11	obj	_	start_char=23|end_char=25
+11	invertiste	invertir	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	SpaceAfter=No|start_char=26|end_char=36
+12	?	?	PUNCT	fit	PunctSide=Fin|PunctType=Qest	5	punct	_	SpaceAfter=No|start_char=36|end_char=37
+
+# text = ¡There you go! ¡Exacto!
+# sent_id = 33
+1	¡	¡	PUNCT	faa	PunctSide=Ini|PunctType=Excl	2	punct	_	SpaceAfter=No|start_char=0|end_char=1
+2	There	there	PROPN	np00000	_	0	root	_	start_char=1|end_char=6
+3	you	you	PROPN	_	_	2	flat	_	start_char=7|end_char=10
+4	go	go	PROPN	_	_	2	flat	_	SpaceAfter=No|start_char=11|end_char=13
+5	!	!	PUNCT	fat	PunctSide=Fin|PunctType=Excl	7	punct	_	start_char=13|end_char=14
+6	¡	¡	PUNCT	faa	PunctSide=Ini|PunctType=Excl	7	punct	_	SpaceAfter=No|start_char=15|end_char=16
+7	Exacto	exacto	NOUN	ncms000	Gender=Masc	2	appos	_	SpaceAfter=No|start_char=16|end_char=22
+8	!	!	PUNCT	fat	PunctSide=Fin|PunctType=Excl	7	punct	_	SpaceAfter=No|start_char=22|end_char=23
+
+# text = ¿En qué lo invertí?
+# sent_id = 34
+1	¿	¿	PUNCT	fia	PunctSide=Ini|PunctType=Qest	5	punct	_	SpaceAfter=No|start_char=0|end_char=1
+2	En	en	ADP	sps00	_	3	case	_	start_char=1|end_char=3
+3	qué	qué	PRON	pt0cs000	Number=Sing|PronType=Int	5	obl	_	start_char=4|end_char=7
+4	lo	él	PRON	pp3msa00	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	5	obj	_	start_char=8|end_char=10
+5	invertí	invertir	VERB	vmis1s0	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No|start_char=11|end_char=18
+6	?	?	PUNCT	fit	PunctSide=Fin|PunctType=Qest	5	punct	_	SpaceAfter=No|start_char=18|end_char=19
+
+# text = Eh, ¿en empresas que te dan más lana?
+# sent_id = 35
+1	Eh	eh	INTJ	_	_	0	root	_	SpaceAfter=No|start_char=0|end_char=2
+2	,	,	PUNCT	fc	PunctType=Comm	1	punct	_	start_char=2|end_char=3
+3	¿	¿	PUNCT	fia	PunctSide=Ini|PunctType=Qest	5	punct	_	SpaceAfter=No|start_char=4|end_char=5
+4	en	en	ADP	sps00	_	5	case	_	start_char=5|end_char=7
+5	empresas	empresa	NOUN	ncfp000	Gender=Fem|Number=Plur	1	nmod	_	start_char=8|end_char=16
+6	que	que	PRON	pr0cn000	PronType=Rel	8	nsubj	_	start_char=17|end_char=20
+7	te	tú	PRON	pp2cs000	Case=Dat|Number=Sing|Person=2|PrepCase=Npr|PronType=Prs	8	obl:arg	_	start_char=21|end_char=23
+8	dan	dar	VERB	vmip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	acl	_	start_char=24|end_char=27
+9	más	más	ADV	rg	Degree=Cmp	10	advmod	_	start_char=28|end_char=31
+10	lana	lana	NOUN	ncfs000	Gender=Fem|Number=Sing	8	obj	_	SpaceAfter=No|start_char=32|end_char=36
+11	?	?	PUNCT	fit	PunctSide=Fin|PunctType=Qest	5	punct	_	SpaceAfter=No|start_char=36|end_char=37
+
+# text = Lo invertí en mí, inmyself.
+# sent_id = 36
+1	Lo	él	PRON	pp3msa00	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	2	obj	_	start_char=0|end_char=2
+2	invertí	invertir	VERB	vmis1s0	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=3|end_char=10
+3	en	en	ADP	sps00	_	4	case	_	start_char=11|end_char=13
+4	mí	yo	PRON	pp1cso00	Case=Acc|Number=Sing|Person=1|PrepCase=Pre|PronType=Prs	2	obl	_	SpaceAfter=No|start_char=14|end_char=16
+5	,	,	PUNCT	fc	PunctType=Comm	6	punct	_	start_char=16|end_char=17
+6	inmyself	inmyself	NOUN	ncms000	Gender=Masc|Number=Sing	4	appos	_	SpaceAfter=No|start_char=18|end_char=26
+7	.	.	PUNCT	fp	PunctType=Peri	2	punct	_	SpaceAfter=No|start_char=26|end_char=27
+
+# text = ¿Cómo no dije eso?
+# sent_id = 37
+1	¿	¿	PUNCT	fia	PunctSide=Ini|PunctType=Qest	4	punct	_	SpaceAfter=No|start_char=0|end_char=1
+2	Cómo	cómo	PRON	pt000000	PronType=Ind	4	obl	_	start_char=1|end_char=5
+3	no	no	ADV	rn	Polarity=Neg	4	advmod	_	start_char=6|end_char=8
+4	dije	decir	VERB	vmis1s0	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=9|end_char=13
+5	eso	ese	PRON	pd0ns000	Number=Sing|PronType=Dem	4	obj	_	SpaceAfter=No|start_char=14|end_char=17
+6	?	?	PUNCT	fit	PunctSide=Fin|PunctType=Qest	4	punct	_	SpaceAfter=No|start_char=17|end_char=18
+
+# text = La pregunta es ¿invierto en ti?
+# sent_id = 38
+1	La	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=0|end_char=2
+2	pregunta	pregunta	NOUN	ncfs000	Gender=Fem|Number=Sing	5	nsubj	_	start_char=3|end_char=11
+3	es	ser	AUX	vsip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=12|end_char=14
+4	¿	¿	PUNCT	fia	PunctSide=Ini|PunctType=Qest	5	punct	_	SpaceAfter=No|start_char=15|end_char=16
+5	invierto	invertir	VERB	vmip1s0	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=16|end_char=24
+6	en	en	ADP	sps00	_	7	case	_	start_char=25|end_char=27
+7	ti	tú	PRON	pp1cso00	Case=Acc|Number=Sing|Person=1|PrepCase=Pre|PronType=Prs	5	obl	_	SpaceAfter=No|start_char=28|end_char=30
+8	?	?	PUNCT	fit	PunctSide=Fin|PunctType=Qest	5	punct	_	SpaceAfter=No|start_char=30|end_char=31
+
+# text = Porque hasta ahora, lo único interesante es la parte femenina de la ecuación, sus ojos, inteligentes, agudos, conocedores.
+# sent_id = 39
+1	Porque	porque	SCONJ	cs	_	10	mark	_	start_char=0|end_char=6
+2	hasta	hasta	ADP	sps00	_	3	case	_	start_char=7|end_char=12
+3	ahora	ahora	ADV	rg	_	10	advmod	_	SpaceAfter=No|start_char=13|end_char=18
+4	,	,	PUNCT	fc	PunctType=Comm	3	punct	_	SpacesAfter=\s\s|start_char=18|end_char=19
+5	lo	él	PRON	da0ns0	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	7	det	_	start_char=21|end_char=23
+6	único	único	ADJ	aq0ms0	Gender=Masc|Number=Sing	7	amod	_	start_char=24|end_char=29
+7	interesante	interesante	ADJ	aq0cs0	Number=Sing	10	nsubj	_	SpacesAfter=\s\s|start_char=30|end_char=41
+8	es	ser	AUX	vsip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	start_char=43|end_char=45
+9	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	start_char=46|end_char=48
+10	parte	parte	NOUN	ncfs000	Gender=Fem|Number=Sing	0	root	_	start_char=49|end_char=54
+11	femenina	femenino	ADJ	aq0fs0	Gender=Fem|Number=Sing	10	amod	_	start_char=55|end_char=63
+12	de	de	ADP	sps00	_	14	case	_	start_char=64|end_char=66
+13	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	start_char=67|end_char=69
+14	ecuación	ecuación	NOUN	ncfs000	Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No|start_char=70|end_char=78
+15	,	,	PUNCT	fc	PunctType=Comm	17	punct	_	SpacesAfter=\s\s|start_char=78|end_char=79
+16	sus	su	DET	dp3cp0	Number=Plur|Person=3|Poss=Yes|PronType=Prs	17	det	_	start_char=81|end_char=84
+17	ojos	ojo	NOUN	ncmp000	Gender=Masc|Number=Plur	10	appos	_	SpaceAfter=No|start_char=85|end_char=89
+18	,	,	PUNCT	fc	PunctType=Comm	19	punct	_	start_char=89|end_char=90
+19	inteligentes	inteligente	ADJ	aq0cp0	Number=Plur	10	conj	_	SpaceAfter=No|start_char=91|end_char=103
+20	,	,	PUNCT	fc	PunctType=Comm	21	punct	_	SpacesAfter=\s\s|start_char=103|end_char=104
+21	agudos	agudo	ADJ	aq0mp0	Gender=Masc|Number=Plur	10	amod	_	SpaceAfter=No|start_char=106|end_char=112
+22	,	,	PUNCT	fc	PunctType=Comm	23	punct	_	start_char=112|end_char=113
+23	conocedores	conocedor	ADJ	aq0mp0	Gender=Masc|Number=Plur	10	amod	_	SpaceAfter=No|start_char=114|end_char=125
+24	.	.	PUNCT	fp	PunctType=Peri	10	punct	_	SpaceAfter=No|start_char=125|end_char=126
+
+# text = Tus ojos, angustiados, brillantes, vacíos.
+# sent_id = 40
+1	Tus	tu	DET	dp1cps	Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	2	det	_	start_char=0|end_char=3
+2	ojos	ojo	NOUN	ncmp000	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No|start_char=4|end_char=8
+3	,	,	PUNCT	fc	PunctType=Comm	4	punct	_	start_char=8|end_char=9
+4	angustiados	angustiado	ADJ	aq0mpp	Gender=Masc|Number=Plur|VerbForm=Part	2	amod	_	SpaceAfter=No|start_char=10|end_char=21
+5	,	,	PUNCT	fc	PunctType=Comm	6	punct	_	SpacesAfter=\s\s|start_char=21|end_char=22
+6	brillantes	brillante	ADJ	aq0cp0	Number=Plur	2	amod	_	SpaceAfter=No|start_char=24|end_char=34
+7	,	,	PUNCT	fc	PunctType=Comm	8	punct	_	start_char=34|end_char=35
+8	vacíos	vacío	ADJ	aq0mp0	Gender=Masc|Number=Plur	2	amod	_	SpaceAfter=No|start_char=36|end_char=42
+9	.	.	PUNCT	fp	PunctType=Peri	2	punct	_	SpaceAfter=No|start_char=42|end_char=43
+
+# text = ¿Has pensado alguna vez algo distinto de: "feed me, cure me, fuck me"?
+# sent_id = 41
+1	¿	¿	PUNCT	fia	PunctSide=Ini|PunctType=Qest	3	punct	_	SpaceAfter=No|start_char=0|end_char=1
+2	Has	haber	AUX	vaip1s0	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=1|end_char=4
+3	pensado	pensar	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	start_char=5|end_char=12
+4	alguna	alguno	DET	di0fs0	Gender=Fem|Number=Sing|PronType=Ind	5	det	_	start_char=13|end_char=19
+5	vez	vez	NOUN	ncfs000	Gender=Fem|Number=Sing	3	obl	_	SpacesAfter=\s\s|start_char=20|end_char=23
+6	algo	algo	PRON	pi0cs000	Number=Sing|PronType=Ind	3	obj	_	start_char=25|end_char=29
+7	distinto	distinto	ADJ	aq0ms0	Gender=Masc|Number=Sing	6	amod	_	start_char=30|end_char=38
+8	de	de	ADP	sps00	_	11	case	_	SpaceAfter=No|start_char=39|end_char=41
+9	:	:	PUNCT	fd	PunctType=Colo	11	punct	_	SpacesAfter=\s\s|start_char=41|end_char=42
+10	"	"	PUNCT	fe	PunctType=Quot	11	punct	_	SpaceAfter=No|start_char=44|end_char=45
+11	feed	feed	INTJ	_	_	6	appos	_	start_char=45|end_char=49
+12	me	yo	PRON	_	Case=Dat|Number=Sing|Person=1|PrepCase=Npr|PronType=Prs	11	flat	_	SpaceAfter=No|start_char=50|end_char=52
+13	,	,	PUNCT	f	PunctType=Comm	11	punct	_	start_char=52|end_char=53
+14	cure	cure	PROPN	_	_	11	flat	_	start_char=54|end_char=58
+15	me	yo	PRON	_	Case=Acc|Number=Sing|Person=1|PrepCase=Npr|PronType=Prs	11	flat	_	SpaceAfter=No|start_char=59|end_char=61
+16	,	,	PUNCT	f	PunctType=Comm	11	punct	_	start_char=61|end_char=62
+17	fuck	fuck	PROPN	_	_	11	flat	_	start_char=63|end_char=67
+18	me	yo	PRON	_	Case=Acc|Number=Sing|Person=1|PrepCase=Npr|PronType=Prs	11	flat	_	SpaceAfter=No|start_char=68|end_char=70
+19	"	"	PUNCT	fe	PunctType=Quot	11	punct	_	SpaceAfter=No|start_char=70|end_char=71
+20	?	?	PUNCT	fit	PunctSide=Fin|PunctType=Qest	3	punct	_	SpaceAfter=No|start_char=71|end_char=72
+
+# text = Oye, ¿qué te pasa? Ni me conoces, cabrón.
+# sent_id = 42
+1	Oye	oír	VERB	vmip3s0	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|start_char=0|end_char=3
+2	,	,	PUNCT	fc	PunctType=Comm	6	punct	_	start_char=3|end_char=4
+3	¿	¿	PUNCT	fia	PunctSide=Ini|PunctType=Qest	6	punct	_	SpaceAfter=No|start_char=5|end_char=6
+4	qué	qué	PRON	pt0cs000	Number=Sing|PronType=Int	6	nsubj	_	start_char=6|end_char=9
+5	te	tú	PRON	pp2cs000	Case=Dat|Number=Sing|Person=2|PrepCase=Npr|PronType=Prs	6	obj	_	start_char=10|end_char=12
+6	pasa	pasar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	_	SpaceAfter=No|start_char=13|end_char=17
+7	?	?	PUNCT	fit	PunctSide=Fin|PunctType=Qest	6	punct	_	SpacesAfter=\s\s|start_char=17|end_char=18
+8	Ni	ni	CCONJ	cc	_	10	cc	_	start_char=20|end_char=22
+9	me	yo	PRON	pp1cs000	Case=Dat|Number=Sing|Person=1|PrepCase=Npr|PronType=Prs	10	expl:pv	_	start_char=23|end_char=25
+10	conoces	conocer	VERB	vmip1s0	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	conj	_	SpaceAfter=No|start_char=26|end_char=33
+11	,	,	PUNCT	fc	PunctType=Comm	6	punct	_	start_char=33|end_char=34
+12	cabrón	cabrón	NOUN	ncms000	Gender=Masc|Number=Sing	6	parataxis	_	SpaceAfter=No|start_char=35|end_char=41
+13	.	.	PUNCT	fp	PunctType=Peri	1	punct	_	SpaceAfter=No|start_char=41|end_char=42
+
+# text = Eras gordo de chico, you were fat as a kid y por eso hoy eres inseguro.
+# sent_id = 43
+1	Eras	Eras	AUX	vmip1s0	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	cop	_	start_char=0|end_char=4
+2	gordo	gordo	ADJ	aq0ms0	Gender=Masc|Number=Sing	0	root	_	start_char=5|end_char=10
+3	de	de	ADP	sps00	_	4	case	_	start_char=11|end_char=13
+4	chico	chico	NOUN	ncms000	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No|start_char=14|end_char=19
+5	,	,	PUNCT	fc	PunctType=Comm	6	punct	_	SpacesAfter=\s\s|start_char=19|end_char=20
+6	you	you	PROPN	np00000	_	2	appos	_	start_char=22|end_char=25
+7	were	were	PROPN	_	_	6	flat	_	start_char=26|end_char=30
+8	fat	fat	PROPN	_	_	6	flat	_	start_char=31|end_char=34
+9	as	as	PROPN	_	_	6	flat	_	start_char=35|end_char=37
+10	a	a	PROPN	_	_	6	flat	_	start_char=38|end_char=39
+11	kid	kid	PROPN	_	_	6	flat	_	SpacesAfter=\s\s|start_char=40|end_char=43
+12	y	y	CCONJ	cc	_	17	cc	_	start_char=45|end_char=46
+13	por	por	ADP	sps00	_	14	case	_	start_char=47|end_char=50
+14	eso	ese	PRON	pd0ns000	Number=Sing|PronType=Dem	17	nmod	_	start_char=51|end_char=54
+15	hoy	hoy	ADV	rg	_	17	advmod	_	start_char=55|end_char=58
+16	eres	ser	AUX	vsip1s0	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	17	cop	_	start_char=59|end_char=63
+17	inseguro	inseguro	ADJ	aq0ms0	Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No|start_char=64|end_char=72
+18	.	.	PUNCT	fp	PunctType=Peri	2	punct	_	SpaceAfter=No|start_char=72|end_char=73
+
+# text = Y sé que tardaste más en construir la maqueta, que en entender los puntos básicos del negocio que dices querer conquistar.
+# sent_id = 44
+1	Y	y	CCONJ	cc	_	2	cc	_	start_char=0|end_char=1
+2	sé	saber	VERB	vmip1s0	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2|end_char=4
+3	que	que	SCONJ	cs	_	4	mark	_	start_char=5|end_char=8
+4	tardaste	tardar	VERB	vmip1s0	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	ccomp	_	start_char=9|end_char=17
+5	más	más	ADV	rg	Degree=Cmp	4	advmod	_	SpacesAfter=\s\s|start_char=18|end_char=21
+6	en	en	ADP	sps00	_	7	mark	_	start_char=23|end_char=25
+7	construir	construir	VERB	vmn0000	VerbForm=Inf	4	xcomp	_	start_char=26|end_char=35
+8	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	start_char=36|end_char=38
+9	maqueta	maqueta	NOUN	ncfs000	Gender=Fem|Number=Sing	7	obj	_	SpaceAfter=No|start_char=39|end_char=46
+10	,	,	PUNCT	fc	PunctType=Comm	13	punct	_	SpacesAfter=\s\s|start_char=46|end_char=47
+11	que	que	PRON	pr0cn000	PronType=Rel	13	mark	_	start_char=49|end_char=52
+12	en	en	ADP	sps00	_	13	mark	_	start_char=53|end_char=55
+13	entender	entender	VERB	vmn0000	VerbForm=Inf	7	advcl	_	start_char=56|end_char=64
+14	los	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	start_char=65|end_char=68
+15	puntos	punto	NOUN	ncmp000	Gender=Masc|Number=Plur	13	obj	_	start_char=69|end_char=75
+16	básicos	básico	ADJ	aq0mp0	Gender=Masc|Number=Plur	15	amod	_	SpacesAfter=\s\s|start_char=76|end_char=83
+17-18	del	_	_	_	_	_	_	_	start_char=85|end_char=88
+17	de	de	ADP	spcms	_	19	case	_	_
+18	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	negocio	negocio	NOUN	ncms000	Gender=Masc|Number=Sing	15	nmod	_	start_char=89|end_char=96
+20	que	que	PRON	pr0cn000	PronType=Rel	21	obj	_	start_char=97|end_char=100
+21	dices	decir	VERB	vmip1s0	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	19	acl	_	start_char=101|end_char=106
+22	querer	querer	AUX	vmn0000	VerbForm=Inf	21	xcomp	_	start_char=107|end_char=113
+23	conquistar	conquistar	VERB	vmn0000	VerbForm=Inf	21	xcomp	_	SpaceAfter=No|start_char=114|end_char=124
+24	.	.	PUNCT	fp	PunctType=Peri	2	punct	_	SpaceAfter=No|start_char=124|end_char=125
+
+# text = Pues, sí, quizá y por eso te estamos invitando, güey, para hablarlo, para escucharte y para que nos enseñes también.
+# sent_id = 45
+1	Pues	pues	SCONJ	cs	_	11	cc	_	SpaceAfter=No|start_char=0|end_char=4
+2	,	,	PUNCT	fc	PunctType=Comm	3	punct	_	start_char=4|end_char=5
+3	sí	sí	INTJ	rg	_	5	advcl	_	SpaceAfter=No|start_char=6|end_char=8
+4	,	,	PUNCT	fc	PunctType=Comm	3	punct	_	start_char=8|end_char=9
+5	quizá	quizá	ADV	rg	_	11	advmod	_	SpacesAfter=\s\s|start_char=10|end_char=15
+6	y	y	CCONJ	cc	_	11	cc	_	start_char=17|end_char=18
+7	por	por	ADP	sps00	_	8	case	_	start_char=19|end_char=22
+8	eso	ese	PRON	pd0ns000	Number=Sing|PronType=Dem	11	obl	_	start_char=23|end_char=26
+9	te	tú	PRON	pp2cs000	Case=Dat|Number=Sing|Person=2|PrepCase=Npr|PronType=Prs	11	obl:arg	_	start_char=27|end_char=29
+10	estamos	estar	AUX	vmip1p0	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	11	aux	_	start_char=30|end_char=37
+11	invitando	invitar	VERB	vmg0000	VerbForm=Ger	0	root	_	SpaceAfter=No|start_char=38|end_char=47
+12	,	,	PUNCT	fc	PunctType=Comm	13	punct	_	start_char=47|end_char=48
+13	güey	güey	NOUN	ncms000	Gender=Masc|Number=Sing	11	obj	_	SpaceAfter=No|start_char=49|end_char=53
+14	,	,	PUNCT	fc	PunctType=Comm	13	punct	_	SpacesAfter=\s\s|start_char=53|end_char=54
+15	para	para	ADP	sps00	_	16	mark	_	start_char=56|end_char=60
+16-17	hablarlo	_	_	_	_	_	_	_	SpaceAfter=No|start_char=61|end_char=69
+16	hablar	hablar	VERB	vmn0000	VerbForm=Inf	11	advcl	_	start_char=61|end_char=67
+17	lo	él	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	16	obj	_	start_char=67|end_char=69
+18	,	,	PUNCT	fc	PunctType=Comm	20	punct	_	start_char=69|end_char=70
+19	para	para	ADP	sps00	_	20	mark	_	start_char=71|end_char=75
+20-21	escucharte	_	_	_	_	_	_	_	SpacesAfter=\s\s|start_char=76|end_char=86
+20	escuchar	escuchar	VERB	vmn0000	VerbForm=Inf	16	advcl	_	start_char=76|end_char=84
+21	te	tú	PRON	_	Case=Dat|Number=Sing|Person=2|PrepCase=Npr|PronType=Prs	20	obl:arg	_	start_char=84|end_char=86
+22	y	y	CCONJ	cc	_	26	cc	_	start_char=88|end_char=89
+23	para	para	ADP	sps00	_	26	mark	_	start_char=90|end_char=94
+24	que	que	SCONJ	cs	_	26	mark	_	start_char=95|end_char=98
+25	nos	yo	PRON	pp1cp000	Case=Dat|Number=Plur|Person=1|PrepCase=Npr|PronType=Prs	26	obj	_	start_char=99|end_char=102
+26	enseñes	enseñes	VERB	vmip1s0	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	20	conj	_	start_char=103|end_char=110
+27	también	también	ADV	rg	_	26	advmod	_	SpaceAfter=No|start_char=111|end_char=118
+28	.	.	PUNCT	fp	PunctType=Peri	11	punct	_	SpaceAfter=No|start_char=118|end_char=119
+
+# text = No se puede enseñar a quien no quiere aprender.
+# sent_id = 46
+1	No	no	ADV	rn	Polarity=Neg	4	advmod	_	start_char=0|end_char=2
+2	se	él	PRON	p0000000	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	4	expl:pass	_	start_char=3|end_char=5
+3	puede	poder	AUX	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=6|end_char=11
+4	enseñar	enseñar	VERB	vmn0000	VerbForm=Inf	0	root	_	SpacesAfter=\s\s|start_char=12|end_char=19
+5	a	a	ADP	sps00	_	8	mark	_	start_char=21|end_char=22
+6	quien	quien	PRON	pr0cs000	Number=Sing|PronType=Rel	8	nsubj	_	start_char=23|end_char=28
+7	no	no	ADV	rn	Polarity=Neg	8	advmod	_	start_char=29|end_char=31
+8	quiere	querer	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	start_char=32|end_char=38
+9	aprender	aprender	VERB	vmn0000	VerbForm=Inf	8	xcomp	_	SpaceAfter=No|start_char=39|end_char=47
+10	.	.	PUNCT	fp	PunctType=Peri	4	punct	_	SpaceAfter=No|start_char=47|end_char=48
+
+# text = Walter Bazar.
+# sent_id = 47
+1	Walter	Walter	PROPN	np00000	_	0	root	_	start_char=0|end_char=6
+2	Bazar	bazar	PROPN	_	_	1	flat	_	SpaceAfter=No|start_char=7|end_char=12
+3	.	.	PUNCT	fp	PunctType=Peri	1	punct	_	SpaceAfter=No|start_char=12|end_char=13
+
+# text = Interesante.
+# sent_id = 48
+1	Interesante	interesante	ADJ	aq0cs0	Number=Sing	0	root	_	SpaceAfter=No|start_char=0|end_char=11
+2	.	.	PUNCT	fp	PunctType=Peri	1	punct	_	SpaceAfter=No|start_char=11|end_char=12
+
+# text = "El pozo es tan profundo como quien lo excavó".
+# sent_id = 49
+1	"	"	PUNCT	fe	PunctType=Quot	6	punct	_	SpaceAfter=No|start_char=0|end_char=1
+2	El	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	start_char=1|end_char=3
+3	pozo	pozo	NOUN	ncms000	Gender=Masc|Number=Sing	6	nsubj	_	start_char=4|end_char=8
+4	es	ser	AUX	vsip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=9|end_char=11
+5	tan	tanto	ADV	rg	_	6	advmod	_	start_char=12|end_char=15
+6	profundo	profundo	ADJ	aq0ms0	Gender=Masc|Number=Sing	0	root	_	SpacesAfter=\s\s|start_char=16|end_char=24
+7	como	como	SCONJ	cs	_	10	mark	_	start_char=26|end_char=30
+8	quien	quien	PRON	pr0cs000	Number=Sing|PronType=Rel	10	nsubj	_	start_char=31|end_char=36
+9	lo	él	PRON	pp3msa00	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	10	obj	_	start_char=37|end_char=39
+10	excavó	excavar	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	advcl	_	SpaceAfter=No|start_char=40|end_char=46
+11	"	"	PUNCT	fe	PunctType=Quot	6	punct	_	SpaceAfter=No|start_char=46|end_char=47
+12	.	.	PUNCT	fp	PunctType=Peri	6	punct	_	SpaceAfter=No|start_char=47|end_char=48
+
+# text = "Todo árbol crece tanto como su raíz".
+# sent_id = 50
+1	"	"	PUNCT	fe	PunctType=Quot	4	punct	_	SpaceAfter=No|start_char=0|end_char=1
+2	Todo	todo	DET	di0ms0	Gender=Masc|Number=Sing|PronType=Tot	3	det	_	start_char=1|end_char=5
+3	árbol	árbol	NOUN	ncms000	Gender=Masc|Number=Sing	4	nsubj	_	start_char=6|end_char=11
+4	crece	crecer	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=12|end_char=17
+5	tanto	tanto	PRON	pi0ms000	NumType=Card|PronType=Dem	4	advmod	_	start_char=18|end_char=23
+6	como	como	SCONJ	cs	_	8	mark	_	start_char=24|end_char=28
+7	su	su	DET	dp3cs0	Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	det	_	start_char=29|end_char=31
+8	raíz	raíz	NOUN	ncfs000	Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No|start_char=32|end_char=36
+9	"	"	PUNCT	fe	PunctType=Quot	4	punct	_	SpaceAfter=No|start_char=36|end_char=37
+10	.	.	PUNCT	fp	PunctType=Peri	4	punct	_	SpaceAfter=No|start_char=37|end_char=38
+

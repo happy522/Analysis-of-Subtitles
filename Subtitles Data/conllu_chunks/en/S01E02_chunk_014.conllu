@@ -1,0 +1,23 @@
+# text = Let them have it.
+# sent_id = 651
+1	Let	let	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	start_char=0|end_char=3
+2	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	1	obj	_	start_char=4|end_char=8
+3	have	have	VERB	VB	VerbForm=Inf	1	xcomp	_	start_char=9|end_char=13
+4	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	obj	_	SpaceAfter=No|start_char=14|end_char=16
+5	.	.	PUNCT	.	_	1	punct	_	SpaceAfter=No|start_char=16|end_char=17
+
+# text = That was good.
+# sent_id = 652
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	_	start_char=0|end_char=4
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	start_char=5|end_char=8
+3	good	good	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No|start_char=9|end_char=13
+4	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No|start_char=13|end_char=14
+
+# text = I love being president.
+# sent_id = 653
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=0|end_char=1
+2	love	love	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2|end_char=6
+3	being	be	AUX	VBG	Tense=Pres|VerbForm=Part	4	cop	_	start_char=7|end_char=12
+4	president	president	NOUN	NN	Number=Sing	2	xcomp	_	SpaceAfter=No|start_char=13|end_char=22
+5	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No|start_char=22|end_char=23
+

@@ -1,0 +1,550 @@
+# text = Ah, ok.
+# sent_id = 301
+1	Ah	Ah	PROPN	NE	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No|start_char=0|end_char=2
+2	,	,	PUNCT	$,	_	3	punct	_	start_char=2|end_char=3
+3	ok	ok	ADJ	ADJD	Degree=Pos	1	appos	_	SpaceAfter=No|start_char=4|end_char=6
+4	.	.	PUNCT	$.	_	1	punct	_	SpaceAfter=No|start_char=6|end_char=7
+
+# text = Und... warum? Was ist passiert?
+# sent_id = 302
+1	Und	und	CCONJ	KON	_	7	cc	_	SpaceAfter=No|start_char=0|end_char=3
+2	...	...	PUNCT	$(	_	7	punct	_	start_char=3|end_char=6
+3	warum	warum	ADV	PWAV	PronType=Int	7	advmod	_	SpaceAfter=No|start_char=7|end_char=12
+4	?	?	PUNCT	$.	_	7	punct	_	start_char=12|end_char=13
+5	Was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	7	nsubj	_	start_char=14|end_char=17
+6	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=18|end_char=21
+7	passiert	passieren	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No|start_char=22|end_char=30
+8	?	?	PUNCT	$.	_	7	punct	_	SpaceAfter=No|start_char=30|end_char=31
+
+# text = Ich ertrage den Geruch von Seife nicht mehr.
+# sent_id = 303
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=0|end_char=3
+2	ertrage	ertragen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpacesAfter=\s\s|start_char=4|end_char=11
+3	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=13|end_char=16
+4	Geruch	Geruch	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	start_char=17|end_char=23
+5	von	von	ADP	APPR	_	6	case	_	start_char=24|end_char=27
+6	Seife	Seife	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	4	nmod	_	start_char=28|end_char=33
+7	nicht	nicht	PART	PTKNEG	Polarity=Neg	2	advmod	_	start_char=34|end_char=39
+8	mehr	mehr	ADV	ADV	_	2	advmod	_	SpaceAfter=No|start_char=40|end_char=44
+9	.	.	PUNCT	$.	_	2	punct	_	SpaceAfter=No|start_char=44|end_char=45
+
+# text = Ich dusche zu Hause, es riecht weiter nach Seife,
+# sent_id = 304
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=0|end_char=3
+2	dusche	duschen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4|end_char=10
+3	zu	zu	ADP	APPR	_	4	case	_	start_char=11|end_char=13
+4	Hause	Haus	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	SpaceAfter=No|start_char=14|end_char=19
+5	,	,	PUNCT	$,	_	7	punct	_	start_char=19|end_char=20
+6	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	start_char=21|end_char=23
+7	riecht	riechen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	start_char=24|end_char=30
+8	weiter	weiter	ADV	ADV	_	7	advmod	_	SpacesAfter=\s\s|start_char=31|end_char=37
+9	nach	nach	ADP	APPR	_	10	case	_	start_char=39|end_char=43
+10	Seife	Seife	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No|start_char=44|end_char=49
+11	,	,	PUNCT	$,	_	2	punct	_	SpaceAfter=No|start_char=49|end_char=50
+
+# text = es gibt kein Entkommen.
+# sent_id = 305
+1	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	start_char=0|end_char=2
+2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3|end_char=7
+3	kein	kein	DET	PIAT	Case=Acc|Gender=Neut|Number=Sing|PronType=Neg	4	det	_	start_char=8|end_char=12
+4	Entkommen	Entkommen	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	SpaceAfter=No|start_char=13|end_char=22
+5	.	.	PUNCT	$.	_	2	punct	_	SpaceAfter=No|start_char=22|end_char=23
+
+# text = Ah, ok.
+# sent_id = 306
+1	Ah	Ah	PROPN	NE	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No|start_char=0|end_char=2
+2	,	,	PUNCT	$,	_	3	punct	_	start_char=2|end_char=3
+3	ok	ok	ADJ	ADJD	Degree=Pos	1	appos	_	SpaceAfter=No|start_char=4|end_char=6
+4	.	.	PUNCT	$.	_	1	punct	_	SpaceAfter=No|start_char=6|end_char=7
+
+# text = Übrigens, Ihr... Ihr Onkel hat Besuch.
+# sent_id = 307
+1	Übrigens	übrigens	ADV	ADV	_	7	advmod	_	SpaceAfter=No|start_char=0|end_char=8
+2	,	,	PUNCT	$,	_	1	punct	_	start_char=8|end_char=9
+3	Ihr	ihr	PRON	PPER	Case=Nom|Number=Sing|Person=2|PronType=Prs	7	nsubj	_	SpaceAfter=No|start_char=10|end_char=13
+4	...	...	PUNCT	$(	_	3	punct	_	start_char=13|end_char=16
+5	Ihr	ihr	DET	PPOSAT	Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	6	det:poss	_	start_char=17|end_char=20
+6	Onkel	Onkel	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	start_char=21|end_char=26
+7	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=27|end_char=30
+8	Besuch	Besuch	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	obj	_	SpaceAfter=No|start_char=31|end_char=37
+9	.	.	PUNCT	$.	_	7	punct	_	SpaceAfter=No|start_char=37|end_char=38
+
+# text = Hallo, Onkel.
+# sent_id = 308
+1	Hallo	Hallo	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|start_char=0|end_char=5
+2	,	,	PUNCT	$,	_	3	punct	_	start_char=5|end_char=6
+3	Onkel	Onkel	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	SpaceAfter=No|start_char=7|end_char=12
+4	.	.	PUNCT	$.	_	1	punct	_	SpaceAfter=No|start_char=12|end_char=13
+
+# text = -Hallo.
+# sent_id = 309
+1	-	-	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=0|end_char=1
+2	Hallo	Hallo	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|start_char=1|end_char=6
+3	.	.	PUNCT	$.	_	2	punct	_	SpaceAfter=No|start_char=6|end_char=7
+
+# text = -Hallo, Kleine, wie geht's?
+# sent_id = 310
+1	-	-	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=0|end_char=1
+2	Hallo	Hallo	NOUN	PTKANT	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No|start_char=1|end_char=6
+3	,	,	PUNCT	$,	_	4	punct	_	start_char=6|end_char=7
+4	Kleine	klein	NOUN	NN	Case=Nom|Number=Plur	2	conj	_	SpaceAfter=No|start_char=8|end_char=14
+5	,	,	PUNCT	$,	_	7	punct	_	start_char=14|end_char=15
+6	wie	wie	ADV	PWAV	_	7	advmod	_	start_char=16|end_char=19
+7	geht	gehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	appos	_	SpaceAfter=No|start_char=20|end_char=24
+8	's	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	SpaceAfter=No|start_char=24|end_char=26
+9	?	?	PUNCT	$.	_	2	punct	_	SpaceAfter=No|start_char=26|end_char=27
+
+# text = Dein Onkel Luis hat mir gerade von deinem neuen Job erzählt.
+# sent_id = 311
+1	Dein	dein	DET	PPOSAT	Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	2	det:poss	_	start_char=0|end_char=4
+2	Onkel	Onkel	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	start_char=5|end_char=10
+3	Luis	Luis	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	appos	_	start_char=11|end_char=15
+4	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	start_char=16|end_char=19
+5	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	11	obl:arg	_	start_char=20|end_char=23
+6	gerade	gerade	ADV	ADV	_	11	advmod	_	SpacesAfter=\s\s|start_char=24|end_char=30
+7	von	von	ADP	APPR	_	10	case	_	start_char=32|end_char=35
+8	deinem	dein	DET	PPOSAT	Case=Dat|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	10	det:poss	_	start_char=36|end_char=42
+9	neuen	neu	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	start_char=43|end_char=48
+10	Job	Job	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	11	obl	_	start_char=49|end_char=52
+11	erzählt	erzählen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No|start_char=53|end_char=60
+12	.	.	PUNCT	$.	_	11	punct	_	SpaceAfter=No|start_char=60|end_char=61
+
+# text = -
+# sent_id = 312
+1	-	-	PUNCT	$(	_	0	root	_	SpaceAfter=No|start_char=0|end_char=1
+
+# text = Ein richtiger Job ist es ja nicht, es ist sehr langweilig.
+# sent_id = 313
+1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	3	det	_	start_char=0|end_char=3
+2	richtiger	richtig	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=4|end_char=13
+3	Job	Job	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=14|end_char=17
+4	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=18|end_char=21
+5	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	start_char=22|end_char=24
+6	ja	ja	ADV	ADV	_	7	advmod	_	start_char=25|end_char=27
+7	nicht	nicht	PART	PTKNEG	Polarity=Neg	3	advmod	_	SpaceAfter=No|start_char=28|end_char=33
+8	,	,	PUNCT	$,	_	12	punct	_	SpacesAfter=\s\s|start_char=33|end_char=34
+9	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	start_char=36|end_char=38
+10	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	start_char=39|end_char=42
+11	sehr	sehr	ADV	ADV	_	12	advmod	_	start_char=43|end_char=47
+12	langweilig	langweilig	ADJ	ADJD	Degree=Pos	3	parataxis	_	SpaceAfter=No|start_char=48|end_char=58
+13	.	.	PUNCT	$.	_	3	punct	_	SpaceAfter=No|start_char=58|end_char=59
+
+# text = -
+# sent_id = 314
+1	-	-	PUNCT	$(	_	0	root	_	SpaceAfter=No|start_char=0|end_char=1
+
+# text = Ich weiß nicht, ob du es wusstest, aber dein Vater und Onkel Luis... Dienstags aßen sie immer zusammen,
+# sent_id = 315
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=0|end_char=3
+2	weiß	wissen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4|end_char=8
+3	nicht	nicht	PART	PTKNEG	Polarity=Neg	2	advmod	_	SpaceAfter=No|start_char=9|end_char=14
+4	,	,	PUNCT	$,	_	8	punct	_	start_char=14|end_char=15
+5	ob	ob	SCONJ	KOUS	_	8	mark	_	start_char=16|end_char=18
+6	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	start_char=19|end_char=21
+7	es	es	PRON	PPER	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	obj	_	start_char=22|end_char=24
+8	wusstest	wissen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	SpaceAfter=No|start_char=25|end_char=33
+9	,	,	PUNCT	$,	_	18	punct	_	SpacesAfter=\s\s|start_char=33|end_char=34
+10	aber	aber	CCONJ	KON	_	18	cc	_	start_char=36|end_char=40
+11	dein	dein	DET	PPOSAT	Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	12	det:poss	_	start_char=41|end_char=45
+12	Vater	Vater	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	start_char=46|end_char=51
+13	und	und	CCONJ	KON	_	14	cc	_	start_char=52|end_char=55
+14	Onkel	Onkel	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	12	conj	_	start_char=56|end_char=61
+15	Luis	Luis	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	14	appos	_	SpaceAfter=No|start_char=62|end_char=66
+16	...	...	PUNCT	$(	_	17	punct	_	SpacesAfter=\s\s|start_char=66|end_char=69
+17	Dienstags	Dienstag	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	15	flat	_	start_char=71|end_char=80
+18	aßen	essen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	start_char=81|end_char=85
+19	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	18	nsubj	_	start_char=86|end_char=89
+20	immer	immer	ADV	ADV	_	18	advmod	_	start_char=90|end_char=95
+21	zusammen	zusammen	ADV	PTKVZ	_	18	compound:prt	_	SpaceAfter=No|start_char=96|end_char=104
+22	,	,	PUNCT	$,	_	2	punct	_	SpaceAfter=No|start_char=104|end_char=105
+
+# text = da wollte ich ihn nicht allein lassen.
+# sent_id = 316
+1	da	da	ADV	ADV	_	7	advmod	_	start_char=0|end_char=2
+2	wollte	wollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	7	aux	_	start_char=3|end_char=9
+3	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	start_char=10|end_char=13
+4	ihn	er	PRON	PPER	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	obj	_	start_char=14|end_char=17
+5	nicht	nicht	PART	PTKNEG	Polarity=Neg	7	advmod	_	start_char=18|end_char=23
+6	allein	allein	ADV	ADV	_	7	xcomp	_	start_char=24|end_char=30
+7	lassen	lassen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=31|end_char=37
+8	.	.	PUNCT	$.	_	7	punct	_	SpaceAfter=No|start_char=37|end_char=38
+
+# text = Daher mein kleines Picknick hier,
+# sent_id = 317
+1	Daher	daher	ADV	PAV	PronType=Dem	4	advmod	_	start_char=0|end_char=5
+2	mein	mein	DET	PPOSAT	Case=Nom|Gender=Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	4	det:poss	_	start_char=6|end_char=10
+3	kleines	klein	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	start_char=11|end_char=18
+4	Picknick	Picknick	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=19|end_char=27
+5	hier	hier	ADV	ADV	_	4	advmod	_	SpaceAfter=No|start_char=28|end_char=32
+6	,	,	PUNCT	$,	_	4	punct	_	SpaceAfter=No|start_char=32|end_char=33
+
+# text = nicht wahr? Aber es ist auch für mich.
+# sent_id = 318
+1	nicht	nicht	PART	PTKNEG	Polarity=Neg	2	advmod	_	start_char=0|end_char=5
+2	wahr	wahr	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No|start_char=6|end_char=10
+3	?	?	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\s|start_char=10|end_char=11
+4	Aber	aber	CCONJ	KON	_	6	cc	_	start_char=13|end_char=17
+5	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	start_char=18|end_char=20
+6	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	appos	_	start_char=21|end_char=24
+7	auch	auch	ADV	ADV	_	6	advmod	_	start_char=25|end_char=29
+8	für	für	ADP	APPR	_	9	case	_	start_char=30|end_char=33
+9	mich	ich	PRON	PPER	Case=Acc|Number=Sing|Person=1|PronType=Prs	6	obl	_	SpaceAfter=No|start_char=34|end_char=38
+10	.	.	PUNCT	$.	_	2	punct	_	SpaceAfter=No|start_char=38|end_char=39
+
+# text = Sie vermisst Salvador.
+# sent_id = 319
+1	Sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=0|end_char=3
+2	vermisst	vermissen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4|end_char=12
+3	Salvador	Salvador	PROPN	NE	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	SpaceAfter=No|start_char=13|end_char=21
+4	.	.	PUNCT	$.	_	2	punct	_	SpaceAfter=No|start_char=21|end_char=22
+
+# text = -
+# sent_id = 320
+1	-	-	PUNCT	$(	_	0	root	_	SpaceAfter=No|start_char=0|end_char=1
+
+# text = Wie viel sie ihn wohl vermisst hätte, hätte sie ihn länger als ein Jahr gekannt.
+# sent_id = 321
+1	Wie	wie	ADV	KOUS	PronType=Int	6	advmod	_	start_char=0|end_char=3
+2	viel	viel	DET	PIAT	PronType=Ind	3	det	_	start_char=4|end_char=8
+3	sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	start_char=9|end_char=12
+4	ihn	er	PRON	PPER	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obj	_	start_char=13|end_char=16
+5	wohl	wohl	ADV	ADV	_	6	advmod	_	start_char=17|end_char=21
+6	vermisst	vermissen	VERB	VVPP	VerbForm=Part	16	advcl	_	start_char=22|end_char=30
+7	hätte	haben	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux	_	SpaceAfter=No|start_char=31|end_char=36
+8	,	,	PUNCT	$,	_	6	punct	_	SpacesAfter=\s\s|start_char=36|end_char=37
+9	hätte	haben	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	aux	_	start_char=39|end_char=44
+10	sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	start_char=45|end_char=48
+11	ihn	er	PRON	PPER	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	obj	_	start_char=49|end_char=52
+12	länger	lang	ADJ	ADJD	Degree=Cmp	16	advmod	_	start_char=53|end_char=59
+13	als	als	ADP	KOKOM	_	15	case	_	start_char=60|end_char=63
+14	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|NumType=Card|PronType=Art	15	det	_	start_char=64|end_char=67
+15	Jahr	Jahr	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	16	obl	_	start_char=68|end_char=72
+16	gekannt	kennen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No|start_char=73|end_char=80
+17	.	.	PUNCT	$.	_	16	punct	_	SpaceAfter=No|start_char=80|end_char=81
+
+# text = -Willst du mitessen?
+# sent_id = 322
+1	-	-	PUNCT	$(	_	4	punct	_	SpaceAfter=No|start_char=0|end_char=1
+2	Willst	wollen	AUX	VAFIN	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=1|end_char=7
+3	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	_	start_char=8|end_char=10
+4	mitessen	mitessen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=11|end_char=19
+5	?	?	PUNCT	$.	_	4	punct	_	SpaceAfter=No|start_char=19|end_char=20
+
+# text = -Nein, nicht doch.
+# sent_id = 323
+1	-	-	PUNCT	$(	_	2	punct	_	SpaceAfter=No|start_char=0|end_char=1
+2	Nein	nein	ADV	ADV	_	0	root	_	SpaceAfter=No|start_char=1|end_char=5
+3	,	,	PUNCT	$,	_	2	punct	_	start_char=5|end_char=6
+4	nicht	nicht	PART	PTKNEG	Polarity=Neg	2	advmod	_	start_char=7|end_char=12
+5	doch	doch	ADV	ADV	_	2	advmod	_	SpaceAfter=No|start_char=13|end_char=17
+6	.	.	PUNCT	$.	_	2	punct	_	SpaceAfter=No|start_char=17|end_char=18
+
+# text = Nein, alles gut. Ich hab viel zu tun.
+# sent_id = 324
+1	Nein	nein	ADV	ADV	_	4	advmod	_	SpaceAfter=No|start_char=0|end_char=4
+2	,	,	PUNCT	$,	_	1	punct	_	start_char=4|end_char=5
+3	alles	alle	DET	PIS	Case=Nom|Gender=Neut|Number=Sing|PronType=Tot	4	nsubj	_	start_char=6|end_char=11
+4	gut	gut	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No|start_char=12|end_char=15
+5	.	.	PUNCT	$.	_	10	punct	_	start_char=15|end_char=16
+6	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	start_char=17|end_char=20
+7	hab	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=21|end_char=24
+8	viel	viel	DET	PIS	PronType=Ind	10	obj	_	start_char=25|end_char=29
+9	zu	zu	PART	PTKZU	_	10	mark	_	start_char=30|end_char=32
+10	tun	tun	VERB	VVINF	VerbForm=Inf	4	parataxis	_	SpaceAfter=No|start_char=33|end_char=36
+11	.	.	PUNCT	$.	_	4	punct	_	SpaceAfter=No|start_char=36|end_char=37
+
+# text = Brauchst du was, meine Liebe?
+# sent_id = 325
+1	Brauchst	brauchen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	start_char=0|end_char=8
+2	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|PronType=Prs	1	nsubj	_	start_char=9|end_char=11
+3	was	was	PRON	PIS	Gender=Neut|Number=Sing|PronType=Int,Rel	1	obj	_	SpaceAfter=No|start_char=12|end_char=15
+4	,	,	PUNCT	$,	_	6	punct	_	start_char=15|end_char=16
+5	meine	mein	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	6	det:poss	_	start_char=17|end_char=22
+6	Liebe	Liebe	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	conj	_	SpaceAfter=No|start_char=23|end_char=28
+7	?	?	PUNCT	$.	_	1	punct	_	SpaceAfter=No|start_char=28|end_char=29
+
+# text = Nein. Das kann warten.
+# sent_id = 326
+1	Nein	nein	ADV	ADV	_	5	advmod	_	SpaceAfter=No|start_char=0|end_char=4
+2	.	.	PUNCT	$.	_	1	punct	_	start_char=4|end_char=5
+3	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	5	nsubj	_	start_char=6|end_char=9
+4	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=10|end_char=14
+5	warten	warten	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=15|end_char=21
+6	.	.	PUNCT	$.	_	5	punct	_	SpaceAfter=No|start_char=21|end_char=22
+
+# text = Genießt euer Picknick, an einem Dienstag, wie schön.
+# sent_id = 327
+1	Genießt	genießen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=0|end_char=7
+2	euer	euer	DET	PIAT	Case=Nom|Gender=Neut|Number=Sing|PronType=Prs	3	det	_	start_char=8|end_char=12
+3	Picknick	Picknick	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	1	obj	_	SpaceAfter=No|start_char=13|end_char=21
+4	,	,	PUNCT	$,	_	7	punct	_	SpacesAfter=\s\s|start_char=21|end_char=22
+5	an	an	ADP	APPR	_	7	case	_	start_char=24|end_char=26
+6	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	7	det	_	start_char=27|end_char=32
+7	Dienstag	Dienstag	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No|start_char=33|end_char=41
+8	,	,	PUNCT	$,	_	10	punct	_	start_char=41|end_char=42
+9	wie	wie	SCONJ	KOUS	_	10	advmod	_	start_char=43|end_char=46
+10	schön	schön	ADJ	ADJD	Degree=Pos	1	conj	_	SpaceAfter=No|start_char=47|end_char=52
+11	.	.	PUNCT	$.	_	1	punct	_	SpaceAfter=No|start_char=52|end_char=53
+
+# text = Ich muss weiterarbeiten.
+# sent_id = 328
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=0|end_char=3
+2	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=4|end_char=8
+3	weiterarbeiten	weiterarbeiten	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=9|end_char=23
+4	.	.	PUNCT	$.	_	3	punct	_	SpaceAfter=No|start_char=23|end_char=24
+
+# text = Aber wenn es nichts zu tun gibt...
+# sent_id = 329
+1	Aber	aber	CCONJ	KON	_	7	cc	_	start_char=0|end_char=4
+2	wenn	wenn	SCONJ	KOUS	_	7	mark	_	start_char=5|end_char=9
+3	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	start_char=10|end_char=12
+4	nichts	nichts	PRON	PIS	Gender=Neut|Number=Sing|PronType=Neg	7	obj	_	start_char=13|end_char=19
+5	zu	zu	PART	PTKZU	_	6	mark	_	start_char=20|end_char=22
+6	tun	tun	VERB	VVINF	VerbForm=Inf	7	xcomp	_	start_char=23|end_char=26
+7	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|start_char=27|end_char=31
+8	...	...	PUNCT	$(	_	7	punct	_	SpaceAfter=No|start_char=31|end_char=34
+
+# text = Dieses Mädchen, wie immer, so toll.
+# sent_id = 330
+1	Dieses	dieser	DET	PDAT	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	det	_	start_char=0|end_char=6
+2	Mädchen	Mädchen	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	SpaceAfter=No|start_char=7|end_char=14
+3	,	,	PUNCT	$,	_	5	punct	_	start_char=14|end_char=15
+4	wie	wie	ADP	KOUS	_	5	case	_	start_char=16|end_char=19
+5	immer	immer	ADV	ADV	_	2	advmod	_	SpaceAfter=No|start_char=20|end_char=25
+6	,	,	PUNCT	$,	_	5	punct	_	start_char=25|end_char=26
+7	so	so	ADV	ADV	_	8	advmod	_	start_char=27|end_char=29
+8	toll	toll	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No|start_char=30|end_char=34
+9	.	.	PUNCT	$.	_	8	punct	_	SpaceAfter=No|start_char=34|end_char=35
+
+# text = -
+# sent_id = 331
+1	-	-	PUNCT	$(	_	0	root	_	SpaceAfter=No|start_char=0|end_char=1
+
+# text = Nein, José Luis. Er ist jung und da hat er verkackt.
+# sent_id = 332
+1	Nein	nein	ADV	ADV	_	8	advmod	_	SpaceAfter=No|start_char=0|end_char=4
+2	,	,	PUNCT	$,	_	3	punct	_	start_char=4|end_char=5
+3	José	José	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	start_char=6|end_char=10
+4	Luis	Luis	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	3	flat	_	SpaceAfter=No|start_char=11|end_char=15
+5	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\s\s|start_char=15|end_char=16
+6	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	start_char=18|end_char=20
+7	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=21|end_char=24
+8	jung	jung	ADJ	ADJD	Degree=Pos	0	root	_	start_char=25|end_char=29
+9	und	und	CCONJ	KON	_	13	cc	_	start_char=30|end_char=33
+10	da	da	ADV	ADV	_	13	advmod	_	start_char=34|end_char=36
+11	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	start_char=37|end_char=40
+12	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	start_char=41|end_char=43
+13	verkackt	verkacken	VERB	VVPP	VerbForm=Part	8	conj	_	SpaceAfter=No|start_char=44|end_char=52
+14	.	.	PUNCT	$.	_	8	punct	_	SpaceAfter=No|start_char=52|end_char=53
+
+# text = -
+# sent_id = 333
+1	-	-	PUNCT	$(	_	0	root	_	SpaceAfter=No|start_char=0|end_char=1
+
+# text = Ja, wir haben recherchiert.
+# sent_id = 334
+1	Ja	Ja	ADV	ADV	_	5	advmod	_	SpaceAfter=No|start_char=0|end_char=2
+2	,	,	PUNCT	$,	_	1	punct	_	start_char=2|end_char=3
+3	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	start_char=4|end_char=7
+4	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=8|end_char=13
+5	recherchiert	recherchieren	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No|start_char=14|end_char=26
+6	.	.	PUNCT	$.	_	5	punct	_	SpaceAfter=No|start_char=26|end_char=27
+
+# text = Er verkackt recht häufig, was?
+# sent_id = 335
+1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=0|end_char=2
+2	verkackt	verkacken	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3|end_char=11
+3	recht	recht	ADV	ADV	_	4	advmod	_	start_char=12|end_char=17
+4	häufig	häufig	ADJ	ADJD	Degree=Pos	2	advmod	_	SpaceAfter=No|start_char=18|end_char=24
+5	,	,	PUNCT	$,	_	6	punct	_	start_char=24|end_char=25
+6	was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	2	dep	_	SpaceAfter=No|start_char=26|end_char=29
+7	?	?	PUNCT	$.	_	2	punct	_	SpaceAfter=No|start_char=29|end_char=30
+
+# text = Fehler der Vergangenheit.
+# sent_id = 336
+1	Fehler	Fehler	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	0	root	_	start_char=0|end_char=6
+2	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	start_char=7|end_char=10
+3	Vergangenheit	Vergangenheit	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	SpaceAfter=No|start_char=11|end_char=24
+4	.	.	PUNCT	$.	_	1	punct	_	SpaceAfter=No|start_char=24|end_char=25
+
+# text = Der Tod seines Vaters hat ihn verändert. Er ist jetzt anders.
+# sent_id = 337
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	start_char=0|end_char=3
+2	Tod	Tod	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	start_char=4|end_char=7
+3	seines	sein	DET	PPOSAT	Case=Gen|Gender=Masc|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	4	det:poss	_	start_char=8|end_char=14
+4	Vaters	Vater	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	start_char=15|end_char=21
+5	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=22|end_char=25
+6	ihn	er	PRON	PPER	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	obj	_	start_char=26|end_char=29
+7	verändert	verändern	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No|start_char=30|end_char=39
+8	.	.	PUNCT	$.	_	10	punct	_	SpacesAfter=\s\s|start_char=39|end_char=40
+9	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	start_char=42|end_char=44
+10	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	parataxis	_	start_char=45|end_char=48
+11	jetzt	jetzt	ADV	ADV	_	10	advmod	_	start_char=49|end_char=54
+12	anders	anders	ADV	ADV	_	10	advmod	_	SpaceAfter=No|start_char=55|end_char=61
+13	.	.	PUNCT	$.	_	7	punct	_	SpaceAfter=No|start_char=61|end_char=62
+
+# text = Die letzten zehn Tage ist er sicher sehr gewachsen.
+# sent_id = 338
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	4	det	_	start_char=0|end_char=3
+2	letzten	letzt	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	4	amod	_	start_char=4|end_char=11
+3	zehn	zehn	NUM	CARD	NumType=Card	4	nummod	_	start_char=12|end_char=16
+4	Tage	Tag	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	9	nmod	_	SpacesAfter=\s\s|start_char=17|end_char=21
+5	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	start_char=23|end_char=26
+6	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	start_char=27|end_char=29
+7	sicher	sicher	ADJ	ADJD	Degree=Pos	9	advmod	_	start_char=30|end_char=36
+8	sehr	sehr	ADV	ADV	_	9	advmod	_	start_char=37|end_char=41
+9	gewachsen	wachsen	ADJ	VVPP	Degree=Pos|VerbForm=Part	0	root	_	SpaceAfter=No|start_char=42|end_char=51
+10	.	.	PUNCT	$.	_	9	punct	_	SpaceAfter=No|start_char=51|end_char=52
+
+# text = Alter, die Cuervos und TV Noticias arbeiten seit 15 Jahren zusammen, solide und partnerschaftlich.
+# sent_id = 339
+1	Alter	Alter	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	SpaceAfter=No|start_char=0|end_char=5
+2	,	,	PUNCT	$,	_	4	punct	_	start_char=5|end_char=6
+3	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	4	det	_	start_char=7|end_char=10
+4	Cuervos	Cuervos	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	start_char=11|end_char=18
+5	und	und	CCONJ	KON	_	6	cc	_	start_char=19|end_char=22
+6	TV	TV	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	conj	_	start_char=23|end_char=25
+7	Noticias	Noticias	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	6	appos	_	SpacesAfter=\s\s|start_char=26|end_char=34
+8	arbeiten	arbeiten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=36|end_char=44
+9	seit	seit	ADP	APPR	_	11	case	_	start_char=45|end_char=49
+10	15	15	NUM	CARD	NumType=Card	11	nummod	_	start_char=50|end_char=52
+11	Jahren	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	8	obl	_	start_char=53|end_char=59
+12	zusammen	zusammen	ADV	PTKVZ	_	8	compound:prt	_	SpaceAfter=No|start_char=60|end_char=68
+13	,	,	PUNCT	$,	_	14	punct	_	SpacesAfter=\s\s|start_char=68|end_char=69
+14	solide	solid	ADJ	ADJD	Degree=Pos	8	conj	_	start_char=71|end_char=77
+15	und	und	CCONJ	KON	_	16	cc	_	start_char=78|end_char=81
+16	partnerschaftlich	partnerschaftlich	ADJ	ADJD	Degree=Pos	14	conj	_	SpaceAfter=No|start_char=82|end_char=99
+17	.	.	PUNCT	$.	_	8	punct	_	SpaceAfter=No|start_char=99|end_char=100
+
+# text = Warum musst du jetzt alles zerstören, was ich aufgebaut habe?
+# sent_id = 340
+1	Warum	warum	ADV	PWAV	PronType=Int	6	advmod	_	start_char=0|end_char=5
+2	musst	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=6|end_char=11
+3	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	start_char=12|end_char=14
+4	jetzt	jetzt	ADV	ADV	_	6	advmod	_	start_char=15|end_char=20
+5	alles	alle	DET	PIS	Case=Acc|Gender=Neut|Number=Sing|PronType=Tot	6	obj	_	start_char=21|end_char=26
+6	zerstören	zerstören	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=27|end_char=36
+7	,	,	PUNCT	$,	_	10	punct	_	SpacesAfter=\s\s|start_char=36|end_char=37
+8	was	was	PRON	PWS	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	10	obj	_	start_char=39|end_char=42
+9	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	start_char=43|end_char=46
+10	aufgebaut	aufbauen	VERB	VVPP	VerbForm=Part	5	acl	_	start_char=47|end_char=56
+11	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	aux	_	SpaceAfter=No|start_char=57|end_char=61
+12	?	?	PUNCT	$.	_	6	punct	_	SpaceAfter=No|start_char=61|end_char=62
+
+# text = Es geht ja nicht gegen dich,
+# sent_id = 341
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=0|end_char=2
+2	geht	gehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3|end_char=7
+3	ja	ja	ADV	ADV	_	4	advmod	_	start_char=8|end_char=10
+4	nicht	nicht	PART	PTKNEG	Polarity=Neg	2	advmod	_	start_char=11|end_char=16
+5	gegen	gegen	ADP	APPR	_	6	case	_	start_char=17|end_char=22
+6	dich	du	PRON	PPER	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	obl	_	SpaceAfter=No|start_char=23|end_char=27
+7	,	,	PUNCT	$,	_	2	punct	_	SpaceAfter=No|start_char=27|end_char=28
+
+# text = sondern gegen den Eigentümer.
+# sent_id = 342
+1	sondern	sondern	CCONJ	KON	_	4	cc	_	start_char=0|end_char=7
+2	gegen	gegen	ADP	APPR	_	4	case	_	start_char=8|end_char=13
+3	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	start_char=14|end_char=17
+4	Eigentümer	Eigentümer	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|start_char=18|end_char=28
+5	.	.	PUNCT	$.	_	4	punct	_	SpaceAfter=No|start_char=28|end_char=29
+
+# text = Ok, was soll ich machen?
+# sent_id = 343
+1	Ok	Ok	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No|start_char=0|end_char=2
+2	,	,	PUNCT	$,	_	6	punct	_	start_char=2|end_char=3
+3	was	was	PRON	PWS	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	6	obj	_	start_char=4|end_char=7
+4	soll	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=8|end_char=12
+5	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	start_char=13|end_char=16
+6	machen	machen	VERB	VVINF	VerbForm=Inf	1	appos	_	SpaceAfter=No|start_char=17|end_char=23
+7	?	?	PUNCT	$.	_	1	punct	_	SpaceAfter=No|start_char=23|end_char=24
+
+# text = Damit du die Story begräbst?
+# sent_id = 344
+1	Damit	damit	SCONJ	KOUS	_	5	mark	_	start_char=0|end_char=5
+2	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|PronType=Prs	5	nsubj	_	start_char=6|end_char=8
+3	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	start_char=9|end_char=12
+4	Story	Story	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	start_char=13|end_char=18
+5	begräbst	begraben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|start_char=19|end_char=27
+6	?	?	PUNCT	$.	_	5	punct	_	SpaceAfter=No|start_char=27|end_char=28
+
+# text = Dein Komitee hat Macht. Gib mir Dreck über den Gouverneur.
+# sent_id = 345
+1	Dein	dein	DET	PPOSAT	Case=Nom|Gender=Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	2	det:poss	_	start_char=0|end_char=4
+2	Komitee	Komitee	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	start_char=5|end_char=12
+3	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=13|end_char=16
+4	Macht	Macht	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No|start_char=17|end_char=22
+5	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\s\s|start_char=22|end_char=23
+6	Gib	geben	VERB	VVIMP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	conj	_	start_char=25|end_char=28
+7	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	6	obl:arg	_	start_char=29|end_char=32
+8	Dreck	Dreck	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	obj	_	start_char=33|end_char=38
+9	über	über	ADP	APPR	_	11	case	_	start_char=39|end_char=43
+10	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	start_char=44|end_char=47
+11	Gouverneur	Gouverneur	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No|start_char=48|end_char=58
+12	.	.	PUNCT	$.	_	3	punct	_	SpaceAfter=No|start_char=58|end_char=59
+
+# text = Leck mich, Alter, ihr seid TV Noticias, nicht CÑÑ.
+# sent_id = 346
+1	Leck	Leck	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=0|end_char=4
+2	mich	ich	PRON	PPER	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	obj	_	SpaceAfter=No|start_char=5|end_char=9
+3	,	,	PUNCT	$,	_	4	punct	_	start_char=9|end_char=10
+4	Alter	Alter	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	1	conj	_	SpaceAfter=No|start_char=11|end_char=16
+5	,	,	PUNCT	$,	_	7	punct	_	SpacesAfter=\s\s|start_char=16|end_char=17
+6	ihr	sie	PRON	PPER	Case=Nom|Number=Sing|Person=2|PronType=Prs	7	nsubj	_	start_char=19|end_char=22
+7	seid	sein	VERB	VVFIN	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	appos	_	start_char=23|end_char=27
+8	TV	TV	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	9	compound	_	start_char=28|end_char=30
+9	Noticias	Noticias	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	SpaceAfter=No|start_char=31|end_char=39
+10	,	,	PUNCT	$,	_	12	punct	_	start_char=39|end_char=40
+11	nicht	nicht	PART	PTKNEG	Polarity=Neg	12	advmod	_	start_char=41|end_char=46
+12	CÑÑ	CÑÑ	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	9	appos	_	SpaceAfter=No|start_char=47|end_char=50
+13	.	.	PUNCT	$.	_	1	punct	_	SpaceAfter=No|start_char=50|end_char=51
+
+# text = Er ist im Komitee der Cuervos, oder?
+# sent_id = 347
+1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=0|end_char=2
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3|end_char=6
+3-4	im	_	_	_	_	_	_	_	start_char=7|end_char=9
+3	in	in	ADP	APPR	_	5	case	_	_
+4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
+5	Komitee	Komitee	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	start_char=10|end_char=17
+6	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	start_char=18|end_char=21
+7	Cuervos	Cuervos	PROPN	NN	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No|start_char=22|end_char=29
+8	,	,	PUNCT	$,	_	2	punct	_	start_char=29|end_char=30
+9	oder	oder	CCONJ	KON	_	2	cc	_	SpaceAfter=No|start_char=31|end_char=35
+10	?	?	PUNCT	$.	_	2	punct	_	SpaceAfter=No|start_char=35|end_char=36
+
+# text = Dragon Cola benutzt die Wasserversorgung des Unternehmens.
+# sent_id = 348
+1	Dragon	Dragon	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=0|end_char=6
+2	Cola	Cola	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	1	flat	_	start_char=7|end_char=11
+3	benutzt	benutzen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=12|end_char=19
+4	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	SpacesAfter=\s\s|start_char=20|end_char=23
+5	Wasserversorgung	Wasserversorgung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	start_char=25|end_char=41
+6	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	start_char=42|end_char=45
+7	Unternehmens	Unternehmen	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	SpaceAfter=No|start_char=46|end_char=58
+8	.	.	PUNCT	$.	_	3	punct	_	SpaceAfter=No|start_char=58|end_char=59
+
+# text = Die Lederbranche stirbt aus. Ich bitte dich.
+# sent_id = 349
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	start_char=0|end_char=3
+2	Lederbranche	Lederbranche	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=4|end_char=16
+3	stirbt	sterben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=17|end_char=23
+4	aus	aus	ADP	PTKVZ	_	3	compound:prt	_	SpaceAfter=No|start_char=24|end_char=27
+5	.	.	PUNCT	$.	_	7	punct	_	SpacesAfter=\s\s|start_char=27|end_char=28
+6	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	start_char=30|end_char=33
+7	bitte	bitten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	parataxis	_	start_char=34|end_char=39
+8	dich	du	PRON	PPER	Case=Acc|Number=Sing|Person=1|PronType=Prs	7	obj	_	SpaceAfter=No|start_char=40|end_char=44
+9	.	.	PUNCT	$.	_	3	punct	_	SpaceAfter=No|start_char=44|end_char=45
+
+# text = Sag mir nicht, du hast da nichts.
+# sent_id = 350
+1	Sag	sagen	VERB	VVIMP	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=0|end_char=3
+2	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	1	obl:arg	_	start_char=4|end_char=7
+3	nicht	nicht	PART	PTKNEG	Polarity=Neg	1	advmod	_	SpaceAfter=No|start_char=8|end_char=13
+4	,	,	PUNCT	$,	_	6	punct	_	start_char=13|end_char=14
+5	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	start_char=15|end_char=17
+6	hast	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	parataxis	_	start_char=18|end_char=22
+7	da	da	ADV	ADV	_	6	advmod	_	start_char=23|end_char=25
+8	nichts	nichts	PRON	PIS	Gender=Neut|Number=Sing|PronType=Neg	6	obj	_	SpaceAfter=No|start_char=26|end_char=32
+9	.	.	PUNCT	$.	_	1	punct	_	SpaceAfter=No|start_char=32|end_char=33
+

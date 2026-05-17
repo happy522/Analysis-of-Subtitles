@@ -1,0 +1,684 @@
+# text = Give me one good reason not to. One.
+# sent_id = 51
+1	Give	give	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	start_char=0|end_char=4
+2	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	iobj	_	start_char=5|end_char=7
+3	one	one	NUM	CD	NumForm=Word|NumType=Card	5	nummod	_	start_char=8|end_char=11
+4	good	good	ADJ	JJ	Degree=Pos	5	amod	_	start_char=12|end_char=16
+5	reason	reason	NOUN	NN	Number=Sing	1	obj	_	start_char=17|end_char=23
+6	not	not	PART	RB	Polarity=Neg	7	advmod	_	start_char=24|end_char=27
+7	to	to	PART	TO	_	1	xcomp	_	SpaceAfter=No|start_char=28|end_char=30
+8	.	.	PUNCT	.	_	1	punct	_	start_char=30|end_char=31
+9	One	one	NUM	CD	NumForm=Word|NumType=Card	1	dep	_	SpaceAfter=No|start_char=32|end_char=35
+10	.	.	PUNCT	.	_	1	punct	_	SpaceAfter=No|start_char=35|end_char=36
+
+# text = Stop being the good girl and become the bitch you need to be.
+# sent_id = 52
+1	Stop	stop	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	start_char=0|end_char=4
+2	being	be	AUX	VBG	Tense=Pres|VerbForm=Part	5	cop	_	start_char=5|end_char=10
+3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	start_char=11|end_char=14
+4	good	good	ADJ	JJ	Degree=Pos	5	amod	_	start_char=15|end_char=19
+5	girl	girl	NOUN	NN	Number=Sing	1	xcomp	_	SpacesAfter=\s\s|start_char=20|end_char=24
+6	and	and	CCONJ	CC	_	7	cc	_	start_char=26|end_char=29
+7	become	become	VERB	VB	Mood=Imp|VerbForm=Fin	1	conj	_	start_char=30|end_char=36
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	start_char=37|end_char=40
+9	bitch	bitch	NOUN	NN	Number=Sing	7	xcomp	_	start_char=41|end_char=46
+10	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	11	nsubj	_	start_char=47|end_char=50
+11	need	need	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	start_char=51|end_char=55
+12	to	to	PART	TO	_	13	mark	_	start_char=56|end_char=58
+13	be	be	AUX	VB	VerbForm=Inf	11	xcomp	_	SpaceAfter=No|start_char=59|end_char=61
+14	.	.	PUNCT	.	_	1	punct	_	SpaceAfter=No|start_char=61|end_char=62
+
+# text = I mean, that presidency belongs to you. It's yours.
+# sent_id = 53
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=0|end_char=1
+2	mean	mean	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	parataxis	_	SpaceAfter=No|start_char=2|end_char=6
+3	,	,	PUNCT	,	_	2	punct	_	start_char=6|end_char=7
+4	that	that	DET	DT	Number=Sing|PronType=Dem	5	det	_	start_char=8|end_char=12
+5	presidency	presidency	NOUN	NN	Number=Sing	6	nsubj	_	start_char=13|end_char=23
+6	belongs	belong	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=24|end_char=31
+7	to	to	ADP	IN	_	8	case	_	start_char=32|end_char=34
+8	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	6	obl	_	SpaceAfter=No|start_char=35|end_char=38
+9	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\s\s|start_char=38|end_char=39
+10-11	It's	_	_	_	_	_	_	_	start_char=41|end_char=45
+10	It	it	PRON	PRP	Number=Sing|Person=2|PronType=Prs	12	nsubj	_	start_char=41|end_char=43
+11	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	start_char=43|end_char=45
+12	yours	your	PRON	PRP	Gender=Neut|Number=Sing|Person=2|Poss=Yes|PronType=Prs	6	parataxis	_	SpaceAfter=No|start_char=46|end_char=51
+13	.	.	PUNCT	.	_	6	punct	_	SpaceAfter=No|start_char=51|end_char=52
+
+# text = Give me the phone. Give me the phone.
+# sent_id = 54
+1	Give	give	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	start_char=0|end_char=4
+2	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	iobj	_	start_char=5|end_char=7
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	start_char=8|end_char=11
+4	phone	phone	NOUN	NN	Number=Sing	1	obj	_	SpaceAfter=No|start_char=12|end_char=17
+5	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\s\s|start_char=17|end_char=18
+6	Give	give	VERB	VB	Mood=Imp|VerbForm=Fin	1	parataxis	_	start_char=20|end_char=24
+7	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	6	iobj	_	start_char=25|end_char=27
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	start_char=28|end_char=31
+9	phone	phone	NOUN	NN	Number=Sing	6	obj	_	SpaceAfter=No|start_char=32|end_char=37
+10	.	.	PUNCT	.	_	1	punct	_	SpaceAfter=No|start_char=37|end_char=38
+
+# text = It's done.
+# sent_id = 55
+1-2	It's	_	_	_	_	_	_	_	start_char=0|end_char=4
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=0|end_char=2
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=2|end_char=4
+3	done	done	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No|start_char=5|end_char=9
+4	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No|start_char=9|end_char=10
+
+# text = You sent it? You really sent it?
+# sent_id = 56
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	start_char=0|end_char=3
+2	sent	send	VERB	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	0	root	_	start_char=4|end_char=8
+3	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obj	_	SpaceAfter=No|start_char=9|end_char=11
+4	?	?	PUNCT	.	_	2	punct	_	start_char=11|end_char=12
+5	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	nsubj	_	start_char=13|end_char=16
+6	really	really	ADV	RB	_	7	advmod	_	start_char=17|end_char=23
+7	sent	send	VERB	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	2	parataxis	_	start_char=24|end_char=28
+8	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	obj	_	SpaceAfter=No|start_char=29|end_char=31
+9	?	?	PUNCT	.	_	2	punct	_	SpaceAfter=No|start_char=31|end_char=32
+
+# text = I was joking, dude!
+# sent_id = 57
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=0|end_char=1
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	3	aux	_	start_char=2|end_char=5
+3	joking	joke	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	SpaceAfter=No|start_char=6|end_char=12
+4	,	,	PUNCT	,	_	5	punct	_	start_char=12|end_char=13
+5	dude	dude	INTJ	UH	_	3	discourse	_	SpaceAfter=No|start_char=14|end_char=18
+6	!	!	PUNCT	.	_	3	punct	_	SpaceAfter=No|start_char=18|end_char=19
+
+# text = Yeah, I sent it. Fuck Chava. Bye-bye, Chava.
+# sent_id = 58
+1	Yeah	yeah	INTJ	UH	Polarity=Pos	4	discourse	_	SpaceAfter=No|start_char=0|end_char=4
+2	,	,	PUNCT	,	_	1	punct	_	start_char=4|end_char=5
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=6|end_char=7
+4	sent	send	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=8|end_char=12
+5	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	obj	_	SpaceAfter=No|start_char=13|end_char=15
+6	.	.	PUNCT	.	_	4	punct	_	start_char=15|end_char=16
+7	Fuck	fuck	VERB	VB	Mood=Imp|VerbForm=Fin	4	parataxis	_	start_char=17|end_char=21
+8	Chava	Chava	PROPN	NNP	Number=Sing	7	obj	_	SpaceAfter=No|start_char=22|end_char=27
+9	.	.	PUNCT	.	_	7	punct	_	SpacesAfter=\s\s|start_char=27|end_char=28
+10	Bye	bye	INTJ	UH	_	7	vocative	_	SpaceAfter=No|start_char=30|end_char=33
+11	-	-	PUNCT	HYPH	_	12	punct	_	SpaceAfter=No|start_char=33|end_char=34
+12	bye	bye	INTJ	UH	_	10	flat	_	SpaceAfter=No|start_char=34|end_char=37
+13	,	,	PUNCT	,	_	14	punct	_	start_char=37|end_char=38
+14	Chava	Chava	PROPN	NNP	Number=Sing	10	flat	_	SpaceAfter=No|start_char=39|end_char=44
+15	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No|start_char=44|end_char=45
+
+# text = -
+# sent_id = 59
+1	-	-	PUNCT	NFP	_	0	root	_	SpaceAfter=No|start_char=0|end_char=1
+
+# text = -Good morning. -Good morning.
+# sent_id = 60
+1	-	-	PUNCT	NFP	_	3	punct	_	SpaceAfter=No|start_char=0|end_char=1
+2	Good	good	ADJ	JJ	Degree=Pos	3	amod	_	start_char=1|end_char=5
+3	morning	morning	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No|start_char=6|end_char=13
+4	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\s\s|start_char=13|end_char=14
+5	-	-	PUNCT	NFP	_	7	punct	_	SpaceAfter=No|start_char=16|end_char=17
+6	Good	good	ADJ	JJ	Degree=Pos	7	amod	_	start_char=17|end_char=21
+7	morning	morning	NOUN	NN	Number=Sing	3	appos	_	SpaceAfter=No|start_char=22|end_char=29
+8	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No|start_char=29|end_char=30
+
+# text = Over here! Pass!
+# sent_id = 61
+1	Over	over	ADP	IN	_	2	case	_	start_char=0|end_char=4
+2	here	here	ADV	RB	PronType=Dem	4	obl	_	SpaceAfter=No|start_char=5|end_char=9
+3	!	!	PUNCT	.	_	2	punct	_	start_char=9|end_char=10
+4	Pass	pass	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No|start_char=11|end_char=15
+5	!	!	PUNCT	.	_	4	punct	_	SpaceAfter=No|start_char=15|end_char=16
+
+# text = Tony! Why'd you let that ball go?
+# sent_id = 62
+1	Tony	Tony	PROPN	NNP	Number=Sing	6	vocative	_	SpaceAfter=No|start_char=0|end_char=4
+2	!	!	PUNCT	.	_	1	punct	_	SpacesAfter=\s\s|start_char=4|end_char=5
+3-4	Why'd	_	_	_	_	_	_	_	start_char=7|end_char=12
+3	Why	why	ADV	WRB	PronType=Int	6	advmod	_	start_char=7|end_char=10
+4	'd	would	AUX	MD	VerbForm=Fin	6	aux	_	start_char=10|end_char=12
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	nsubj	_	start_char=13|end_char=16
+6	let	let	VERB	VB	VerbForm=Inf	0	root	_	start_char=17|end_char=20
+7	that	that	DET	DT	Number=Sing|PronType=Dem	8	det	_	start_char=21|end_char=25
+8	ball	ball	NOUN	NN	Number=Sing	6	obj	_	start_char=26|end_char=30
+9	go	go	VERB	VB	VerbForm=Inf	6	xcomp	_	SpaceAfter=No|start_char=31|end_char=33
+10	?	?	PUNCT	.	_	6	punct	_	SpaceAfter=No|start_char=33|end_char=34
+
+# text = It was too far ahead of me.
+# sent_id = 63
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	start_char=0|end_char=2
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	start_char=3|end_char=6
+3	too	too	ADV	RB	_	4	advmod	_	start_char=7|end_char=10
+4	far	far	ADV	RB	Degree=Pos	5	advmod	_	start_char=11|end_char=14
+5	ahead	ahead	ADV	RB	_	0	root	_	start_char=15|end_char=20
+6	of	of	ADP	IN	_	7	case	_	start_char=21|end_char=23
+7	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	obl	_	SpaceAfter=No|start_char=24|end_char=26
+8	.	.	PUNCT	.	_	5	punct	_	SpaceAfter=No|start_char=26|end_char=27
+
+# text = Damn cocky rookie!
+# sent_id = 64
+1	Damn	Damn	ADJ	JJ	Degree=Pos	3	amod	_	start_char=0|end_char=4
+2	cocky	cocky	ADJ	JJ	Degree=Pos	3	amod	_	start_char=5|end_char=10
+3	rookie	rookie	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No|start_char=11|end_char=17
+4	!	!	PUNCT	.	_	3	punct	_	SpaceAfter=No|start_char=17|end_char=18
+
+# text = You're a lazy son of a bitch!
+# sent_id = 65
+1-2	You're	_	_	_	_	_	_	_	start_char=0|end_char=6
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	start_char=0|end_char=3
+2	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=3|end_char=6
+3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	start_char=7|end_char=8
+4	lazy	lazy	ADJ	JJ	Degree=Pos	5	amod	_	start_char=9|end_char=13
+5	son	son	NOUN	NN	Number=Sing	0	root	_	start_char=14|end_char=17
+6	of	of	ADP	IN	_	8	case	_	start_char=18|end_char=20
+7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	start_char=21|end_char=22
+8	bitch	bitch	NOUN	NN	Number=Sing	5	nmod	_	SpaceAfter=No|start_char=23|end_char=28
+9	!	!	PUNCT	.	_	5	punct	_	SpaceAfter=No|start_char=28|end_char=29
+
+# text = Never let the ball pass, even at the line! Is that clear?
+# sent_id = 66
+1	Never	never	ADV	RB	PronType=Neg	2	advmod	_	start_char=0|end_char=5
+2	let	let	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	start_char=6|end_char=9
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	start_char=10|end_char=13
+4	ball	ball	NOUN	NN	Number=Sing	2	obj	_	start_char=14|end_char=18
+5	pass	pass	VERB	VB	VerbForm=Inf	2	xcomp	_	SpaceAfter=No|start_char=19|end_char=23
+6	,	,	PUNCT	,	_	10	punct	_	SpacesAfter=\s\s|start_char=23|end_char=24
+7	even	even	ADV	RB	_	10	advmod	_	start_char=26|end_char=30
+8	at	at	ADP	IN	_	10	case	_	start_char=31|end_char=33
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	start_char=34|end_char=37
+10	line	line	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No|start_char=38|end_char=42
+11	!	!	PUNCT	.	_	14	punct	_	start_char=42|end_char=43
+12	Is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	start_char=44|end_char=46
+13	that	that	PRON	DT	Number=Sing|PronType=Dem	14	nsubj	_	start_char=47|end_char=51
+14	clear	clear	ADJ	JJ	Degree=Pos	2	parataxis	_	SpaceAfter=No|start_char=52|end_char=57
+15	?	?	PUNCT	.	_	2	punct	_	SpaceAfter=No|start_char=57|end_char=58
+
+# text = -Yes, Coach. -Now go pick everything up.
+# sent_id = 67
+1	-	-	PUNCT	NFP	_	4	punct	_	SpaceAfter=No|start_char=0|end_char=1
+2	Yes	yes	INTJ	UH	Polarity=Pos	4	discourse	_	SpaceAfter=No|start_char=1|end_char=4
+3	,	,	PUNCT	,	_	2	punct	_	start_char=4|end_char=5
+4	Coach	coach	NOUN	NN	Number=Sing	8	vocative	_	SpaceAfter=No|start_char=6|end_char=11
+5	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\s\s|start_char=11|end_char=12
+6	-	-	PUNCT	NFP	_	8	punct	_	SpaceAfter=No|start_char=14|end_char=15
+7	Now	now	ADV	RB	_	8	advmod	_	start_char=15|end_char=18
+8	go	go	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	start_char=19|end_char=21
+9	pick	pick	VERB	VB	VerbForm=Inf	8	xcomp	_	start_char=22|end_char=26
+10	everything	everything	PRON	NN	Number=Sing|PronType=Tot	9	obj	_	start_char=27|end_char=37
+11	up	up	ADP	RP	_	9	compound:prt	_	SpaceAfter=No|start_char=38|end_char=40
+12	.	.	PUNCT	.	_	8	punct	_	SpaceAfter=No|start_char=40|end_char=41
+
+# text = -Understood? -Yes, Coach.
+# sent_id = 68
+1	-	-	PUNCT	NFP	_	2	punct	_	SpaceAfter=No|start_char=0|end_char=1
+2	Understood	understood	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No|start_char=1|end_char=11
+3	?	?	PUNCT	.	_	2	punct	_	SpacesAfter=\s\s|start_char=11|end_char=12
+4	-	-	PUNCT	NFP	_	5	punct	_	SpaceAfter=No|start_char=14|end_char=15
+5	Yes	yes	INTJ	UH	Polarity=Pos	2	discourse	_	SpaceAfter=No|start_char=15|end_char=18
+6	,	,	PUNCT	,	_	5	punct	_	start_char=18|end_char=19
+7	Coach	coach	NOUN	NN	Number=Sing	2	vocative	_	SpaceAfter=No|start_char=20|end_char=25
+8	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No|start_char=25|end_char=26
+
+# text = Don't ever stop running after a ball!
+# sent_id = 69
+1-2	Don't	_	_	_	_	_	_	_	start_char=0|end_char=5
+1	Do	do	AUX	VB	Mood=Imp|VerbForm=Fin	4	aux	_	start_char=0|end_char=2
+2	n't	not	PART	RB	Polarity=Neg	4	advmod	_	start_char=2|end_char=5
+3	ever	ever	ADV	RB	PronType=Ind	4	advmod	_	start_char=6|end_char=10
+4	stop	stop	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	start_char=11|end_char=15
+5	running	run	VERB	VBG	VerbForm=Ger	4	xcomp	_	start_char=16|end_char=23
+6	after	after	ADP	IN	_	8	case	_	start_char=24|end_char=29
+7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	start_char=30|end_char=31
+8	ball	ball	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No|start_char=32|end_char=36
+9	!	!	PUNCT	.	_	4	punct	_	SpaceAfter=No|start_char=36|end_char=37
+
+# text = Son of a bitch! God damn it!
+# sent_id = 70
+1	Son	son	NOUN	NN	Number=Sing	7	vocative	_	start_char=0|end_char=3
+2	of	of	ADP	IN	_	4	case	_	start_char=4|end_char=6
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	start_char=7|end_char=8
+4	bitch	bitch	NOUN	NN	Number=Sing	1	nmod	_	SpaceAfter=No|start_char=9|end_char=14
+5	!	!	PUNCT	.	_	1	punct	_	start_char=14|end_char=15
+6	God	God	PROPN	NNP	Number=Sing	7	nsubj	_	start_char=16|end_char=19
+7	damn	damn	VERB	VB	VerbForm=Fin	0	root	_	start_char=20|end_char=24
+8	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	obj	_	SpaceAfter=No|start_char=25|end_char=27
+9	!	!	PUNCT	.	_	7	punct	_	SpaceAfter=No|start_char=27|end_char=28
+
+# text = What are you slackers looking at? Get back to work!
+# sent_id = 71
+1	What	what	PRON	WP	PronType=Int	5	obl	_	start_char=0|end_char=4
+2	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=5|end_char=8
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	start_char=9|end_char=12
+4	slackers	slacker	NOUN	NNS	Number=Plur	5	nsubj	_	start_char=13|end_char=21
+5	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	start_char=22|end_char=29
+6	at	at	ADP	IN	_	1	case	_	SpaceAfter=No|start_char=30|end_char=32
+7	?	?	PUNCT	.	_	5	punct	_	SpacesAfter=\s\s|start_char=32|end_char=33
+8	Get	get	VERB	VB	Mood=Imp|VerbForm=Fin	5	parataxis	_	start_char=35|end_char=38
+9	back	back	ADV	RB	_	8	advmod	_	start_char=39|end_char=43
+10	to	to	ADP	IN	_	11	case	_	start_char=44|end_char=46
+11	work	work	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No|start_char=47|end_char=51
+12	!	!	PUNCT	.	_	5	punct	_	SpaceAfter=No|start_char=51|end_char=52
+
+# text = Okay, Chava. What's the problem with Mexican soccer?
+# sent_id = 72
+1	Okay	okay	INTJ	UH	_	5	discourse	_	SpaceAfter=No|start_char=0|end_char=4
+2	,	,	PUNCT	,	_	1	punct	_	start_char=4|end_char=5
+3	Chava	Chava	PROPN	NNP	Number=Sing	5	vocative	_	SpaceAfter=No|start_char=6|end_char=11
+4	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\s\s|start_char=11|end_char=12
+5-6	What's	_	_	_	_	_	_	_	start_char=14|end_char=20
+5	What	what	PRON	WP	PronType=Int	8	nsubj	_	start_char=14|end_char=18
+6	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=18|end_char=20
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	start_char=21|end_char=24
+8	problem	problem	NOUN	NN	Number=Sing	0	root	_	start_char=25|end_char=32
+9	with	with	ADP	IN	_	11	case	_	start_char=33|end_char=37
+10	Mexican	Mexican	ADJ	JJ	Degree=Pos	11	amod	_	start_char=38|end_char=45
+11	soccer	soccer	NOUN	NN	Number=Sing	8	nmod	_	SpaceAfter=No|start_char=46|end_char=52
+12	?	?	PUNCT	.	_	8	punct	_	SpaceAfter=No|start_char=52|end_char=53
+
+# text = There's no glamor? Everyone's terrible?
+# sent_id = 73
+1-2	There's	_	_	_	_	_	_	_	start_char=0|end_char=7
+1	There	there	PRON	EX	_	2	expl	_	start_char=0|end_char=5
+2	's	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5|end_char=7
+3	no	no	DET	DT	PronType=Neg	4	det	_	start_char=8|end_char=10
+4	glamor	glamor	NOUN	NN	Number=Sing	2	nsubj	_	SpaceAfter=No|start_char=11|end_char=17
+5	?	?	PUNCT	.	_	2	punct	_	SpacesAfter=\s\s|start_char=17|end_char=18
+6-7	Everyone's	_	_	_	_	_	_	_	start_char=20|end_char=30
+6	Everyone	everyone	PRON	NN	Number=Sing|PronType=Tot	8	nsubj	_	start_char=20|end_char=28
+7	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=28|end_char=30
+8	terrible	terrible	ADJ	JJ	Degree=Pos	2	parataxis	_	SpaceAfter=No|start_char=31|end_char=39
+9	?	?	PUNCT	.	_	2	punct	_	SpaceAfter=No|start_char=39|end_char=40
+
+# text = We don't have a David Beckham. El Piojo is in all the ads.
+# sent_id = 74
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	start_char=0|end_char=2
+2-3	don't	_	_	_	_	_	_	_	start_char=3|end_char=8
+2	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=3|end_char=5
+3	n't	not	PART	RB	Polarity=Neg	4	advmod	_	start_char=5|end_char=8
+4	have	have	VERB	VB	VerbForm=Inf	0	root	_	start_char=9|end_char=13
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	start_char=14|end_char=15
+6	David	David	PROPN	NNP	Number=Sing	4	obj	_	start_char=16|end_char=21
+7	Beckham	Beckham	PROPN	NNP	Number=Sing	6	flat	_	SpaceAfter=No|start_char=22|end_char=29
+8	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\s\s|start_char=29|end_char=30
+9	El	El	PROPN	NNP	Number=Sing	15	nsubj	_	start_char=32|end_char=34
+10	Piojo	Piojo	PROPN	NNP	Number=Sing	9	flat	_	start_char=35|end_char=40
+11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	start_char=41|end_char=43
+12	in	in	ADP	IN	_	15	case	_	start_char=44|end_char=46
+13	all	all	DET	PDT	PronType=Tot	15	det:predet	_	start_char=47|end_char=50
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	start_char=51|end_char=54
+15	ads	ad	NOUN	NNS	Number=Plur	4	parataxis	_	SpaceAfter=No|start_char=55|end_char=58
+16	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No|start_char=58|end_char=59
+
+# text = They want short-term results. There's no long-term planning.
+# sent_id = 75
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=0|end_char=4
+2	want	want	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=5|end_char=9
+3	short	short	ADJ	JJ	Degree=Pos	5	amod	_	SpaceAfter=No|start_char=10|end_char=15
+4	-	-	PUNCT	HYPH	_	3	punct	_	SpaceAfter=No|start_char=15|end_char=16
+5	term	term	NOUN	NN	Number=Sing	6	compound	_	start_char=16|end_char=20
+6	results	result	NOUN	NNS	Number=Plur	2	obj	_	SpaceAfter=No|start_char=21|end_char=28
+7	.	.	PUNCT	.	_	9	punct	_	SpacesAfter=\s\s|start_char=28|end_char=29
+8-9	There's	_	_	_	_	_	_	_	start_char=31|end_char=38
+8	There	there	PRON	EX	_	9	expl	_	start_char=31|end_char=36
+9	's	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	start_char=36|end_char=38
+10	no	no	DET	DT	PronType=Neg	14	det	_	start_char=39|end_char=41
+11	long	long	ADJ	JJ	Degree=Pos	13	amod	_	SpaceAfter=No|start_char=42|end_char=46
+12	-	-	PUNCT	HYPH	_	11	punct	_	SpaceAfter=No|start_char=46|end_char=47
+13	term	term	NOUN	NN	Number=Sing	14	compound	_	start_char=47|end_char=51
+14	planning	planning	NOUN	NN	Number=Sing	9	nsubj	_	SpaceAfter=No|start_char=52|end_char=60
+15	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No|start_char=60|end_char=61
+
+# text = That too, no fucking kidding.
+# sent_id = 76
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	6	reparandum	_	start_char=0|end_char=4
+2	too	too	ADV	RB	_	6	advmod	_	SpaceAfter=No|start_char=5|end_char=8
+3	,	,	PUNCT	,	_	2	punct	_	start_char=8|end_char=9
+4	no	no	DET	DT	PronType=Neg	6	det	_	start_char=10|end_char=12
+5	fucking	fucking	NOUN	NN	Number=Sing	6	compound	_	start_char=13|end_char=20
+6	kidding	kidding	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No|start_char=21|end_char=28
+7	.	.	PUNCT	.	_	6	punct	_	SpaceAfter=No|start_char=28|end_char=29
+
+# text = I'll give you a concrete example. Italy, Germany, Argentina, and Brazil all keep their head coaches for eight years.
+# sent_id = 77
+1-2	I'll	_	_	_	_	_	_	_	start_char=0|end_char=4
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=0|end_char=1
+2	'll	will	AUX	MD	VerbForm=Fin	3	aux	_	start_char=1|end_char=4
+3	give	give	VERB	VB	VerbForm=Inf	0	root	_	start_char=5|end_char=9
+4	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	3	iobj	_	start_char=10|end_char=13
+5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	start_char=14|end_char=15
+6	concrete	concrete	ADJ	JJ	Degree=Pos	7	amod	_	start_char=16|end_char=24
+7	example	example	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No|start_char=25|end_char=32
+8	.	.	PUNCT	.	_	18	punct	_	SpacesAfter=\s\s\s|start_char=32|end_char=33
+9	Italy	Italy	PROPN	NNP	Number=Sing	18	nsubj	_	SpaceAfter=No|start_char=36|end_char=41
+10	,	,	PUNCT	,	_	11	punct	_	start_char=41|end_char=42
+11	Germany	Germany	PROPN	NNP	Number=Sing	9	conj	_	SpaceAfter=No|start_char=43|end_char=50
+12	,	,	PUNCT	,	_	13	punct	_	start_char=50|end_char=51
+13	Argentina	Argentina	PROPN	NNP	Number=Sing	9	conj	_	SpaceAfter=No|start_char=52|end_char=61
+14	,	,	PUNCT	,	_	16	punct	_	start_char=61|end_char=62
+15	and	and	CCONJ	CC	_	16	cc	_	start_char=63|end_char=66
+16	Brazil	Brazil	PROPN	NNP	Number=Sing	9	conj	_	SpacesAfter=\s\s|start_char=67|end_char=73
+17	all	all	DET	DT	PronType=Tot	9	det	_	start_char=75|end_char=78
+18	keep	keep	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	start_char=79|end_char=83
+19	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	21	nmod:poss	_	start_char=84|end_char=89
+20	head	head	NOUN	NN	Number=Sing	21	compound	_	start_char=90|end_char=94
+21	coaches	coach	NOUN	NNS	Number=Plur	18	obj	_	SpacesAfter=\s\s|start_char=95|end_char=102
+22	for	for	ADP	IN	_	24	case	_	start_char=104|end_char=107
+23	eight	eight	NUM	CD	NumForm=Word|NumType=Card	24	nummod	_	start_char=108|end_char=113
+24	years	year	NOUN	NNS	Number=Plur	18	obl	_	SpaceAfter=No|start_char=114|end_char=119
+25	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No|start_char=119|end_char=120
+
+# text = Our national team keeps them for two.
+# sent_id = 78
+1	Our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	_	start_char=0|end_char=3
+2	national	national	ADJ	JJ	Degree=Pos	3	amod	_	start_char=4|end_char=12
+3	team	team	NOUN	NN	Number=Sing	4	nsubj	_	start_char=13|end_char=17
+4	keeps	keep	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=18|end_char=23
+5	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	4	obj	_	start_char=24|end_char=28
+6	for	for	ADP	IN	_	7	case	_	start_char=29|end_char=32
+7	two	two	NUM	CD	NumForm=Word|NumType=Card	4	obl	_	SpaceAfter=No|start_char=33|end_char=36
+8	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No|start_char=36|end_char=37
+
+# text = Yeah, we play like never before and lose like always.
+# sent_id = 79
+1	Yeah	yeah	INTJ	UH	Polarity=Pos	4	discourse	_	SpaceAfter=No|start_char=0|end_char=4
+2	,	,	PUNCT	,	_	1	punct	_	start_char=4|end_char=5
+3	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	start_char=6|end_char=8
+4	play	play	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=9|end_char=13
+5	like	like	INTJ	UH	_	4	discourse	_	start_char=14|end_char=18
+6	never	never	ADV	RB	PronType=Neg	7	advmod	_	start_char=19|end_char=24
+7	before	before	ADV	RB	_	4	advmod	_	SpacesAfter=\s\s|start_char=25|end_char=31
+8	and	and	CCONJ	CC	_	9	cc	_	start_char=33|end_char=36
+9	lose	lose	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	conj	_	start_char=37|end_char=41
+10	like	like	INTJ	UH	_	9	discourse	_	start_char=42|end_char=46
+11	always	always	ADV	RB	PronType=Tot	9	advmod	_	SpaceAfter=No|start_char=47|end_char=53
+12	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No|start_char=53|end_char=54
+
+# text = Your father took me to dinner.
+# sent_id = 80
+1	Your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	2	nmod:poss	_	start_char=0|end_char=4
+2	father	father	NOUN	NN	Number=Sing	3	nsubj	_	start_char=5|end_char=11
+3	took	take	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=12|end_char=16
+4	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	obj	_	start_char=17|end_char=19
+5	to	to	ADP	IN	_	6	case	_	start_char=20|end_char=22
+6	dinner	dinner	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No|start_char=23|end_char=29
+7	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No|start_char=29|end_char=30
+
+# text = I proposed an idea I'd wanted to implement for some time.
+# sent_id = 81
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=0|end_char=1
+2	proposed	propose	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=2|end_char=10
+3	an	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	start_char=11|end_char=13
+4	idea	idea	NOUN	NN	Number=Sing	2	obj	_	SpacesAfter=\s\s|start_char=14|end_char=18
+5-6	I'd	_	_	_	_	_	_	_	start_char=20|end_char=23
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	start_char=20|end_char=21
+6	'd	would	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	7	aux	_	start_char=21|end_char=23
+7	wanted	want	VERB	VBN	Tense=Past|VerbForm=Part	4	acl:relcl	_	start_char=24|end_char=30
+8	to	to	PART	TO	_	9	mark	_	start_char=31|end_char=33
+9	implement	implement	VERB	VB	VerbForm=Inf	7	xcomp	_	start_char=34|end_char=43
+10	for	for	ADP	IN	_	12	case	_	start_char=44|end_char=47
+11	some	some	DET	DT	PronType=Ind	12	det	_	start_char=48|end_char=52
+12	time	time	NOUN	NN	Number=Sing	9	obl	_	SpaceAfter=No|start_char=53|end_char=57
+13	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No|start_char=57|end_char=58
+
+# text = We called it "the Eight-Year Plan."
+# sent_id = 82
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	start_char=0|end_char=2
+2	called	call	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=3|end_char=9
+3	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obj	_	start_char=10|end_char=12
+4	"	"	PUNCT	``	_	9	punct	_	SpaceAfter=No|start_char=13|end_char=14
+5	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	start_char=14|end_char=17
+6	Eight	eight	NUM	CD	NumForm=Word|NumType=Card	8	nummod	_	SpaceAfter=No|start_char=18|end_char=23
+7	-	-	PUNCT	HYPH	_	6	punct	_	SpaceAfter=No|start_char=23|end_char=24
+8	Year	Year	PROPN	NNP	Number=Sing	9	compound	_	start_char=24|end_char=28
+9	Plan	plan	NOUN	NN	Number=Sing	2	xcomp	_	SpaceAfter=No|start_char=29|end_char=33
+10	.	.	PUNCT	.	_	9	punct	_	SpaceAfter=No|start_char=33|end_char=34
+11	"	"	PUNCT	''	_	9	punct	_	SpaceAfter=No|start_char=34|end_char=35
+
+# text = It lacks punch, doesn't it?
+# sent_id = 83
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=0|end_char=2
+2	lacks	lack	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3|end_char=8
+3	punch	punch	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No|start_char=9|end_char=14
+4	,	,	PUNCT	,	_	5	punct	_	start_char=14|end_char=15
+5-6	doesn't	_	_	_	_	_	_	_	start_char=16|end_char=23
+5	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	start_char=16|end_char=20
+6	n't	not	PART	RB	Polarity=Neg	5	advmod	_	start_char=20|end_char=23
+7	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	SpaceAfter=No|start_char=24|end_char=26
+8	?	?	PUNCT	.	_	2	punct	_	SpaceAfter=No|start_char=26|end_char=27
+
+# text = Wouldn't it be cooler to call it something like the "the Octangle"?
+# sent_id = 84
+1-2	Wouldn't	_	_	_	_	_	_	_	start_char=0|end_char=8
+1	Would	would	AUX	MD	VerbForm=Fin	5	aux	_	start_char=0|end_char=5
+2	n't	not	PART	RB	Polarity=Neg	5	advmod	_	start_char=5|end_char=8
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	_	start_char=9|end_char=11
+4	be	be	AUX	VB	VerbForm=Inf	5	cop	_	start_char=12|end_char=14
+5	cooler	cool	ADJ	JJR	Degree=Cmp	0	root	_	start_char=15|end_char=21
+6	to	to	PART	TO	_	7	mark	_	start_char=22|end_char=24
+7	call	call	VERB	VB	VerbForm=Inf	5	csubj	_	start_char=25|end_char=29
+8	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	obj	_	SpacesAfter=\s\s|start_char=30|end_char=32
+9	something	something	PRON	NN	Number=Sing|PronType=Ind	7	xcomp	_	start_char=34|end_char=43
+10	like	like	ADP	IN	_	14	case	_	start_char=44|end_char=48
+11	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	start_char=49|end_char=52
+12	"	"	PUNCT	``	_	14	punct	_	SpaceAfter=No|start_char=53|end_char=54
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	start_char=54|end_char=57
+14	Octangle	Octangle	PROPN	NNP	Number=Sing	9	nmod	_	SpaceAfter=No|start_char=58|end_char=66
+15	"	"	PUNCT	''	_	14	punct	_	SpaceAfter=No|start_char=66|end_char=67
+16	?	?	PUNCT	.	_	5	punct	_	SpaceAfter=No|start_char=67|end_char=68
+
+# text = What do you call the thing with eight sides?
+# sent_id = 85
+1	What	what	PRON	WP	PronType=Int	4	obj	_	start_char=0|end_char=4
+2	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=5|end_char=7
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	start_char=8|end_char=11
+4	call	call	VERB	VB	VerbForm=Inf	0	root	_	SpacesAfter=\s\s|start_char=12|end_char=16
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	start_char=18|end_char=21
+6	thing	thing	NOUN	NN	Number=Sing	4	obj	_	start_char=22|end_char=27
+7	with	with	ADP	IN	_	9	case	_	start_char=28|end_char=32
+8	eight	eight	NUM	CD	NumForm=Word|NumType=Card	9	nummod	_	start_char=33|end_char=38
+9	sides	side	NOUN	NNS	Number=Plur	4	obl	_	SpaceAfter=No|start_char=39|end_char=44
+10	?	?	PUNCT	.	_	4	punct	_	SpaceAfter=No|start_char=44|end_char=45
+
+# text = -Octagon. -That's it.
+# sent_id = 86
+1	-	-	PUNCT	NFP	_	2	punct	_	SpaceAfter=No|start_char=0|end_char=1
+2	Octagon	Octagon	PROPN	NNP	Number=Sing	0	root	_	SpaceAfter=No|start_char=1|end_char=8
+3	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\s\s|start_char=8|end_char=9
+4	-	-	PUNCT	NFP	_	7	punct	_	SpaceAfter=No|start_char=11|end_char=12
+5-6	That's	_	_	_	_	_	_	_	start_char=12|end_char=18
+5	That	that	PRON	DT	Number=Sing|PronType=Dem	7	nsubj	_	start_char=12|end_char=16
+6	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=16|end_char=18
+7	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	parataxis	_	SpaceAfter=No|start_char=19|end_char=21
+8	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No|start_char=21|end_char=22
+
+# text = Whatever. The name doesn't matter. Listen.
+# sent_id = 87
+1	Whatever	whatever	PRON	WP	PronType=Int	7	dislocated	_	SpaceAfter=No|start_char=0|end_char=8
+2	.	.	PUNCT	.	_	1	punct	_	start_char=8|end_char=9
+3	The	the	DET	DT	Definite=Def|PronType=Art	4	det	_	start_char=10|end_char=13
+4	name	name	NOUN	NN	Number=Sing	7	nsubj	_	start_char=14|end_char=18
+5-6	doesn't	_	_	_	_	_	_	_	start_char=19|end_char=26
+5	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=19|end_char=23
+6	n't	not	PART	RB	Polarity=Neg	7	advmod	_	start_char=23|end_char=26
+7	matter	matter	VERB	VB	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=27|end_char=33
+8	.	.	PUNCT	.	_	7	punct	_	start_char=33|end_char=34
+9	Listen	listen	VERB	VB	Mood=Imp|VerbForm=Fin	7	parataxis	_	SpaceAfter=No|start_char=35|end_char=41
+10	.	.	PUNCT	.	_	7	punct	_	SpaceAfter=No|start_char=41|end_char=42
+
+# text = Point number one, we limit new signings to avoid player rotation so they get to know each other.
+# sent_id = 88
+1	Point	point	NOUN	NN	Number=Sing	2	compound	_	start_char=0|end_char=5
+2	number	number	NOUN	NN	Number=Sing	6	obl:unmarked	_	start_char=6|end_char=12
+3	one	one	NUM	CD	NumForm=Word|NumType=Card	2	nummod	_	SpaceAfter=No|start_char=13|end_char=16
+4	,	,	PUNCT	,	_	2	punct	_	SpacesAfter=\s\s|start_char=16|end_char=17
+5	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	start_char=19|end_char=21
+6	limit	limit	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=22|end_char=27
+7	new	new	ADJ	JJ	Degree=Pos	8	amod	_	start_char=28|end_char=31
+8	signings	signing	NOUN	NNS	Number=Plur	6	obj	_	SpacesAfter=\s\s|start_char=32|end_char=40
+9	to	to	PART	TO	_	10	mark	_	start_char=42|end_char=44
+10	avoid	avoid	VERB	VB	VerbForm=Inf	6	advcl	_	start_char=45|end_char=50
+11	player	player	NOUN	NN	Number=Sing	12	compound	_	start_char=51|end_char=57
+12	rotation	rotation	NOUN	NN	Number=Sing	10	obj	_	SpacesAfter=\s\s|start_char=58|end_char=66
+13	so	so	SCONJ	IN	_	15	mark	_	start_char=68|end_char=70
+14	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	15	nsubj	_	start_char=71|end_char=75
+15	get	get	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_	start_char=76|end_char=79
+16	to	to	PART	TO	_	17	mark	_	start_char=80|end_char=82
+17	know	know	VERB	VB	VerbForm=Inf	15	xcomp	_	start_char=83|end_char=87
+18	each	each	DET	DT	ExtPos=PRON|PronType=Rcp	17	obj	_	start_char=88|end_char=92
+19	other	other	ADJ	JJ	Degree=Pos	18	fixed	_	SpaceAfter=No|start_char=93|end_char=98
+20	.	.	PUNCT	.	_	6	punct	_	SpaceAfter=No|start_char=98|end_char=99
+
+# text = Point number two, we involve Goyo in sports decisions and some administrative ones. We empower him.
+# sent_id = 89
+1	Point	point	NOUN	NN	Number=Sing	2	compound	_	start_char=0|end_char=5
+2	number	number	NOUN	NN	Number=Sing	6	obl:unmarked	_	start_char=6|end_char=12
+3	two	two	NUM	CD	NumForm=Word|NumType=Card	2	nummod	_	SpaceAfter=No|start_char=13|end_char=16
+4	,	,	PUNCT	,	_	2	punct	_	start_char=16|end_char=17
+5	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	start_char=18|end_char=20
+6	involve	involve	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=21|end_char=28
+7	Goyo	Goyo	PROPN	NNP	Number=Sing	6	obj	_	SpacesAfter=\s\s|start_char=29|end_char=33
+8	in	in	ADP	IN	_	10	case	_	start_char=35|end_char=37
+9	sports	sport	NOUN	NNS	Number=Plur	10	compound	_	start_char=38|end_char=44
+10	decisions	decision	NOUN	NNS	Number=Plur	6	obl	_	SpacesAfter=\s\s|start_char=45|end_char=54
+11	and	and	CCONJ	CC	_	14	cc	_	start_char=56|end_char=59
+12	some	some	DET	DT	PronType=Ind	14	det	_	start_char=60|end_char=64
+13	administrative	administrative	ADJ	JJ	Degree=Pos	14	amod	_	start_char=65|end_char=79
+14	ones	one	NOUN	NNS	Number=Plur	10	conj	_	SpaceAfter=No|start_char=80|end_char=84
+15	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\s\s|start_char=84|end_char=85
+16	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	17	nsubj	_	start_char=87|end_char=89
+17	empower	empower	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	parataxis	_	start_char=90|end_char=97
+18	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	obj	_	SpaceAfter=No|start_char=98|end_char=101
+19	.	.	PUNCT	.	_	6	punct	_	SpaceAfter=No|start_char=101|end_char=102
+
+# text = Three, the farm teams. We invest in them to develop the best young talent in the country.
+# sent_id = 90
+1	Three	three	NUM	CD	NumForm=Word|NumType=Card	0	root	_	SpaceAfter=No|start_char=0|end_char=5
+2	,	,	PUNCT	,	_	5	punct	_	start_char=5|end_char=6
+3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	start_char=7|end_char=10
+4	farm	farm	NOUN	NN	Number=Sing	5	compound	_	start_char=11|end_char=15
+5	teams	team	NOUN	NNS	Number=Plur	1	appos	_	SpaceAfter=No|start_char=16|end_char=21
+6	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\s\s\s|start_char=21|end_char=22
+7	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj	_	start_char=25|end_char=27
+8	invest	invest	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	parataxis	_	start_char=28|end_char=34
+9	in	in	ADP	IN	_	10	case	_	start_char=35|end_char=37
+10	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	8	obl	_	start_char=38|end_char=42
+11	to	to	PART	TO	_	12	mark	_	start_char=43|end_char=45
+12	develop	develop	VERB	VB	VerbForm=Inf	8	advcl	_	SpacesAfter=\s\s|start_char=46|end_char=53
+13	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	start_char=55|end_char=58
+14	best	good	ADJ	JJS	Degree=Sup	16	amod	_	start_char=59|end_char=63
+15	young	young	ADJ	JJ	Degree=Pos	16	amod	_	start_char=64|end_char=69
+16	talent	talent	NOUN	NN	Number=Sing	12	obj	_	start_char=70|end_char=76
+17	in	in	ADP	IN	_	19	case	_	start_char=77|end_char=79
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	start_char=80|end_char=83
+19	country	country	NOUN	NN	Number=Sing	16	nmod	_	SpaceAfter=No|start_char=84|end_char=91
+20	.	.	PUNCT	.	_	1	punct	_	SpaceAfter=No|start_char=91|end_char=92
+
+# text = Four, we only sell players to play in top positions in Europe.
+# sent_id = 91
+1	Four	four	NUM	CD	NumForm=Word|NumType=Card	5	discourse	_	SpaceAfter=No|start_char=0|end_char=4
+2	,	,	PUNCT	,	_	1	punct	_	start_char=4|end_char=5
+3	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	start_char=6|end_char=8
+4	only	only	ADV	RB	_	5	advmod	_	start_char=9|end_char=13
+5	sell	sell	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=14|end_char=18
+6	players	player	NOUN	NNS	Number=Plur	5	obj	_	SpacesAfter=\s\s|start_char=19|end_char=26
+7	to	to	PART	TO	_	8	mark	_	start_char=28|end_char=30
+8	play	play	VERB	VB	VerbForm=Inf	5	advcl	_	start_char=31|end_char=35
+9	in	in	ADP	IN	_	11	case	_	start_char=36|end_char=38
+10	top	top	ADJ	JJ	Degree=Pos	11	amod	_	start_char=39|end_char=42
+11	positions	position	NOUN	NNS	Number=Plur	8	obl	_	start_char=43|end_char=52
+12	in	in	ADP	IN	_	13	case	_	start_char=53|end_char=55
+13	Europe	Europe	PROPN	NNP	Number=Sing	8	obl	_	SpaceAfter=No|start_char=56|end_char=62
+14	.	.	PUNCT	.	_	5	punct	_	SpaceAfter=No|start_char=62|end_char=63
+
+# text = That's fucking awesome. I like that.
+# sent_id = 92
+1-2	That's	_	_	_	_	_	_	_	start_char=0|end_char=6
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	4	nsubj	_	start_char=0|end_char=4
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=4|end_char=6
+3	fucking	fucking	ADJ	JJ	Degree=Pos	4	advmod	_	start_char=7|end_char=14
+4	awesome	awesome	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No|start_char=15|end_char=22
+5	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\s\s|start_char=22|end_char=23
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	start_char=25|end_char=26
+7	like	like	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	parataxis	_	start_char=27|end_char=31
+8	that	that	PRON	DT	Number=Sing|PronType=Dem	7	obj	_	SpaceAfter=No|start_char=32|end_char=36
+9	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No|start_char=36|end_char=37
+
+# text = What I need you to do is what your dad had been doing, selling the vision.
+# sent_id = 93
+1	What	what	PRON	WP	PronType=Int	8	nsubj:outer	_	start_char=0|end_char=4
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=5|end_char=6
+3	need	need	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	start_char=7|end_char=11
+4	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	3	obj	_	start_char=12|end_char=15
+5	to	to	PART	TO	_	6	mark	_	start_char=16|end_char=18
+6	do	do	VERB	VB	VerbForm=Inf	3	xcomp	_	start_char=19|end_char=21
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=22|end_char=24
+8	what	what	PRON	WP	PronType=Rel	0	root	_	start_char=25|end_char=29
+9	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	10	nmod:poss	_	start_char=30|end_char=34
+10	dad	dad	NOUN	NN	Number=Sing	13	nsubj	_	SpacesAfter=\s\s|start_char=35|end_char=38
+11	had	have	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	aux	_	start_char=40|end_char=43
+12	been	be	AUX	VBN	Tense=Past|VerbForm=Part	13	aux	_	start_char=44|end_char=48
+13	doing	do	VERB	VBG	Tense=Pres|VerbForm=Part	8	acl:relcl	_	SpaceAfter=No|start_char=49|end_char=54
+14	,	,	PUNCT	,	_	15	punct	_	start_char=54|end_char=55
+15	selling	sell	VERB	VBG	Tense=Pres|VerbForm=Part	8	parataxis	_	start_char=56|end_char=63
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	start_char=64|end_char=67
+17	vision	vision	NOUN	NN	Number=Sing	15	obj	_	SpaceAfter=No|start_char=68|end_char=74
+18	.	.	PUNCT	.	_	8	punct	_	SpaceAfter=No|start_char=74|end_char=75
+
+# text = Making them believe in the plan.
+# sent_id = 94
+1	Making	make	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	start_char=0|end_char=6
+2	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	1	obj	_	start_char=7|end_char=11
+3	believe	believe	VERB	VB	VerbForm=Inf	1	xcomp	_	start_char=12|end_char=19
+4	in	in	ADP	IN	_	6	case	_	start_char=20|end_char=22
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	start_char=23|end_char=26
+6	plan	plan	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No|start_char=27|end_char=31
+7	.	.	PUNCT	.	_	1	punct	_	SpaceAfter=No|start_char=31|end_char=32
+
+# text = What do you think?
+# sent_id = 95
+1	What	what	PRON	WP	PronType=Int	4	obj	_	start_char=0|end_char=4
+2	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=5|end_char=7
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	start_char=8|end_char=11
+4	think	think	VERB	VB	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=12|end_char=17
+5	?	?	PUNCT	.	_	4	punct	_	SpaceAfter=No|start_char=17|end_char=18
+
+# text = Have you seen our uniforms?
+# sent_id = 96
+1	Have	have	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=0|end_char=4
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	start_char=5|end_char=8
+3	seen	see	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	start_char=9|end_char=13
+4	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	_	start_char=14|end_char=17
+5	uniforms	uniform	NOUN	NNS	Number=Plur	3	obj	_	SpaceAfter=No|start_char=18|end_char=26
+6	?	?	PUNCT	.	_	3	punct	_	SpaceAfter=No|start_char=26|end_char=27
+
+# text = What?
+# sent_id = 97
+1	What	what	PRON	WP	PronType=Int	0	root	_	SpaceAfter=No|start_char=0|end_char=4
+2	?	?	PUNCT	.	_	1	punct	_	SpaceAfter=No|start_char=4|end_char=5
+
+# text = -Look at them. -Okay.
+# sent_id = 98
+1	-	-	PUNCT	NFP	_	2	punct	_	SpaceAfter=No|start_char=0|end_char=1
+2	Look	look	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	start_char=1|end_char=5
+3	at	at	ADP	IN	_	4	case	_	start_char=6|end_char=8
+4	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	2	obl	_	SpaceAfter=No|start_char=9|end_char=13
+5	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\s\s|start_char=13|end_char=14
+6	-	-	PUNCT	NFP	_	7	punct	_	SpaceAfter=No|start_char=16|end_char=17
+7	Okay	okay	INTJ	UH	_	2	discourse	_	SpaceAfter=No|start_char=17|end_char=21
+8	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No|start_char=21|end_char=22
+
+# text = -What do you see? -Uniforms?
+# sent_id = 99
+1	-	-	PUNCT	NFP	_	5	punct	_	SpaceAfter=No|start_char=0|end_char=1
+2	What	what	PRON	WP	PronType=Int	5	obj	_	start_char=1|end_char=5
+3	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=6|end_char=8
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	start_char=9|end_char=12
+5	see	see	VERB	VB	VerbForm=Inf	0	root	_	SpaceAfter=No|start_char=13|end_char=16
+6	?	?	PUNCT	.	_	5	punct	_	SpacesAfter=\s\s|start_char=16|end_char=17
+7	-	-	PUNCT	NFP	_	8	punct	_	SpaceAfter=No|start_char=19|end_char=20
+8	Uniforms	uniform	NOUN	NNS	Number=Plur	5	parataxis	_	SpaceAfter=No|start_char=20|end_char=28
+9	?	?	PUNCT	.	_	5	punct	_	SpaceAfter=No|start_char=28|end_char=29
+
+# text = No.
+# sent_id = 100
+1	No	no	INTJ	UH	Polarity=Neg	0	root	_	SpaceAfter=No|start_char=0|end_char=2
+2	.	.	PUNCT	.	_	1	punct	_	SpaceAfter=No|start_char=2|end_char=3
+

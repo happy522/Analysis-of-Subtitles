@@ -1,0 +1,21 @@
+# text = Démosela.
+# sent_id = 651
+1	Démosela	démosela	PROPN	np00000	_	0	root	_	SpaceAfter=No|start_char=0|end_char=8
+2	.	.	PUNCT	fp	PunctType=Peri	1	punct	_	SpaceAfter=No|start_char=8|end_char=9
+
+# text = Eso estuvo muy bien.
+# sent_id = 652
+1	Eso	ese	PRON	pd0ns000	Number=Sing|PronType=Dem	2	nsubj	_	start_char=0|end_char=3
+2	estuvo	estar	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=4|end_char=10
+3	muy	mucho	ADV	rg	_	4	advmod	_	start_char=11|end_char=14
+4	bien	bien	ADV	rg	_	2	advmod	_	SpaceAfter=No|start_char=15|end_char=19
+5	.	.	PUNCT	fp	PunctType=Peri	2	punct	_	SpaceAfter=No|start_char=19|end_char=20
+
+# text = Me encanta ser presidente.
+# sent_id = 653
+1	Me	yo	PRON	pp1cs000	Case=Dat|Number=Sing|Person=1|PrepCase=Npr|PronType=Prs	2	obl:arg	_	start_char=0|end_char=2
+2	encanta	encantar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3|end_char=10
+3	ser	ser	AUX	vsn0000	VerbForm=Inf	4	cop	_	start_char=11|end_char=14
+4	presidente	presidente	NOUN	ncms000	Gender=Masc|Number=Sing	2	csubj	_	SpaceAfter=No|start_char=15|end_char=25
+5	.	.	PUNCT	fp	PunctType=Peri	2	punct	_	SpaceAfter=No|start_char=25|end_char=26
+

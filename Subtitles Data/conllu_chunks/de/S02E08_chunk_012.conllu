@@ -1,0 +1,105 @@
+# text = Ok, ich will es nicht bewerten, aber...
+# sent_id = 551
+1	Ok	Ok	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No|start_char=0|end_char=2
+2	,	,	PUNCT	$,	_	7	punct	_	start_char=2|end_char=3
+3	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	start_char=4|end_char=7
+4	will	wollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=8|end_char=12
+5	es	es	PRON	PPER	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	obj	_	start_char=13|end_char=15
+6	nicht	nicht	PART	PTKNEG	Polarity=Neg	7	advmod	_	start_char=16|end_char=21
+7	bewerten	bewerten	VERB	VVINF	VerbForm=Inf	1	appos	_	SpaceAfter=No|start_char=22|end_char=30
+8	,	,	PUNCT	$,	_	7	punct	_	start_char=30|end_char=31
+9	aber	aber	CCONJ	KON	_	7	cc	_	SpaceAfter=No|start_char=32|end_char=36
+10	...	...	PUNCT	$(	_	1	punct	_	SpaceAfter=No|start_char=36|end_char=39
+
+# text = Letzte Nacht... War doch gut, oder?
+# sent_id = 552
+1	Letzte	letzt	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	start_char=0|end_char=6
+2	Nacht	Nacht	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|start_char=7|end_char=12
+3	...	...	PUNCT	$(	_	4	punct	_	SpacesAfter=\s\s\s|start_char=12|end_char=15
+4	War	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	appos	_	start_char=18|end_char=21
+5	doch	doch	ADV	ADV	_	4	advmod	_	start_char=22|end_char=26
+6	gut	gut	ADJ	ADJD	Degree=Pos	4	xcomp	_	SpaceAfter=No|start_char=27|end_char=30
+7	,	,	PUNCT	$,	_	4	punct	_	start_char=30|end_char=31
+8	oder	oder	CCONJ	KON	_	6	cc	_	SpaceAfter=No|start_char=32|end_char=36
+9	?	?	PUNCT	$.	_	4	punct	_	SpaceAfter=No|start_char=36|end_char=37
+
+# text = Ja, es war, was es war.
+# sent_id = 553
+1	Ja	Ja	ADV	ADV	_	4	advmod	_	SpaceAfter=No|start_char=0|end_char=2
+2	,	,	PUNCT	$,	_	1	punct	_	start_char=2|end_char=3
+3	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	start_char=4|end_char=6
+4	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No|start_char=7|end_char=10
+5	,	,	PUNCT	$,	_	8	punct	_	start_char=10|end_char=11
+6	was	was	PRON	PWS	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	8	obj	_	start_char=12|end_char=15
+7	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	start_char=16|end_char=18
+8	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	ccomp	_	SpaceAfter=No|start_char=19|end_char=22
+9	.	.	PUNCT	$.	_	4	punct	_	SpaceAfter=No|start_char=22|end_char=23
+
+# text = Und mehr nicht.
+# sent_id = 554
+1	Und	und	CCONJ	KON	_	3	cc	_	start_char=0|end_char=3
+2	mehr	mehr	ADV	ADV	_	3	advmod	_	start_char=4|end_char=8
+3	nicht	nicht	PART	PTKNEG	Polarity=Neg	0	root	_	SpaceAfter=No|start_char=9|end_char=14
+4	.	.	PUNCT	$.	_	3	punct	_	SpaceAfter=No|start_char=14|end_char=15
+
+# text = Erzähl mal...
+# sent_id = 555
+1	Erzähl	Erzähl	NOUN	PTKANT	Number=Sing	0	root	_	start_char=0|end_char=6
+2	mal	mal	ADV	ADV	_	1	advmod	_	SpaceAfter=No|start_char=7|end_char=10
+3	...	...	PUNCT	$(	_	1	punct	_	SpaceAfter=No|start_char=10|end_char=13
+
+# text = Was ist gestern Nacht passiert?
+# sent_id = 556
+1	Was	was	PRON	PWS	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	5	nsubj	_	start_char=0|end_char=3
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=4|end_char=7
+3	gestern	gestern	ADV	ADV	_	5	advmod	_	start_char=8|end_char=15
+4	Nacht	Nacht	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	obj	_	start_char=16|end_char=21
+5	passiert	passieren	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No|start_char=22|end_char=30
+6	?	?	PUNCT	$.	_	5	punct	_	SpaceAfter=No|start_char=30|end_char=31
+
+# text = Wolltest du das wirklich?
+# sent_id = 557
+1	Wolltest	wollen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	start_char=0|end_char=8
+2	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|PronType=Prs	1	nsubj	_	start_char=9|end_char=11
+3	das	der	PRON	PDS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem,Rel	1	obj	_	start_char=12|end_char=15
+4	wirklich	wirklich	ADV	ADV	_	1	advmod	_	SpaceAfter=No|start_char=16|end_char=24
+5	?	?	PUNCT	$.	_	1	punct	_	SpaceAfter=No|start_char=24|end_char=25
+
+# text = Oder war es wegen des Kerls, den wir in der Bar trafen?
+# sent_id = 558
+1	Oder	Oder	ADV	ADV	_	2	advmod	_	start_char=0|end_char=4
+2	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=5|end_char=8
+3	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	start_char=9|end_char=11
+4	wegen	wegen	ADP	APPR	_	6	case	_	start_char=12|end_char=17
+5	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	start_char=18|end_char=21
+6	Kerls	Kerl	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No|start_char=22|end_char=27
+7	,	,	PUNCT	$,	_	13	punct	_	SpacesAfter=\s\s|start_char=27|end_char=28
+8	den	der	PRON	PRELS	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem,Rel	13	obj	_	start_char=30|end_char=33
+9	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	13	nsubj	_	start_char=34|end_char=37
+10	in	in	ADP	APPR	_	12	case	_	start_char=38|end_char=40
+11	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	start_char=41|end_char=44
+12	Bar	Bar	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	13	obl	_	start_char=45|end_char=48
+13	trafen	treffen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	6	acl	_	SpaceAfter=No|start_char=49|end_char=55
+14	?	?	PUNCT	$.	_	2	punct	_	SpaceAfter=No|start_char=55|end_char=56
+
+# text = Wie hieß er?
+# sent_id = 559
+1	Wie	wie	ADV	KOUS	_	2	advmod	_	start_char=0|end_char=3
+2	hieß	heißen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=4|end_char=8
+3	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	SpaceAfter=No|start_char=9|end_char=11
+4	?	?	PUNCT	$.	_	2	punct	_	SpaceAfter=No|start_char=11|end_char=12
+
+# text = Javier?
+# sent_id = 560
+1	Javier	Javier	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|start_char=0|end_char=6
+2	?	?	PUNCT	$.	_	1	punct	_	SpaceAfter=No|start_char=6|end_char=7
+
+# text = Das dachte ich mir schon.
+# sent_id = 561
+1	Das	der	PRON	PDS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem,Rel	2	obj	_	start_char=0|end_char=3
+2	dachte	denken	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=4|end_char=10
+3	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=11|end_char=14
+4	mir	ich	PRON	PRF	Case=Dat|Number=Sing|Person=1|PronType=Prs	2	obl:arg	_	start_char=15|end_char=18
+5	schon	schon	ADV	ADV	_	2	advmod	_	SpaceAfter=No|start_char=19|end_char=24
+6	.	.	PUNCT	$.	_	2	punct	_	SpaceAfter=No|start_char=24|end_char=25
+
