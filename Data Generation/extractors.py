@@ -52,6 +52,23 @@ def av_s_length(trees, lang):
 					texts.remove(texts[i + 1])
 				else:
 					sent_lengths.append(len(tree))
+	elif lang == 'es':
+		texts = trees.copy()
+		for i, tree in enumerate(texts):
+			if i < len(texts):
+				lastwd = tree[-1]
+				if lastwd[1] in [':', ';']:
+					try:
+						nextsent = texts[i + 1]
+						sent_lengths.append(len(tree) + len(nextsent))
+						texts.remove(texts[i + 1])
+					except IndexError:
+						sent_lengths.append(len(tree))
+						print('Despite filtering I still have texts that finish in no end-of-sent punct!')
+						print(' '.join(w[1] for w in tree))
+						continue
+				else:
+					sent_lengths.append(len(tree))
 	else:
 		print('Specify the language, please', file=sys.stderr)  # the path to file doesn't satisfy the requirements
 	
@@ -82,6 +99,11 @@ def prsp(tree, lang):
 				             'Вами', 'им', 'ей', 'ею', 'нами', 'вами', 'ими', 'ним', 'нем', 'нём', 'ней', 'нею', 'ними']:
 					count += 1
 					matches.append(w[2].lower())
+		elif lang == 'es':
+			if 'PRON' in w[3] and 'Person=' in w[5] and not 'Poss=Yes' in w[5]:
+				if token in 'yo tú vos usted él ella nosotros nosotras ustedes vosotros vosotras ellos ellas me te lo nos os los la las se le les mí ti sí conmigo contigo consigo'.split():
+					count += 1
+					matches.append(w[2].lower())
 	return count, matches
 
 
@@ -106,6 +128,11 @@ def possdet(tree, lang):
 			if 'DET' in w[3] and lemma in ['мой', 'твой', 'ваш', 'его', 'ее', 'её', 'наш', 'их', 'ихний', 'свой']:
 				count += 1
 				matches.append(w[2].lower())
+		elif lang == 'es':
+			if lemma in 'mi mis tu tus su sus nuestro nuestros nuestra nuestras vuestro vuestros vuestra vuestras'.split():
+				if w[3] in ['DET', 'PRON'] and 'Poss=Yes' in w[5]:
+					count += 1
+					matches.append(w[2].lower())
 	return count, matches
 
 # include only noun substituters, i.e. pronouns par excellence, of Indefinite, total and negative semantic subtypes
@@ -150,6 +177,12 @@ def anysome(tree, lang):
 			            'чего-чего', 'чему-чему', 'чем-чем', 'куда-куда', 'где-где']:
 				count += 1
 				matches.append(w[2].lower())
+		elif lang == 'es':
+			annotated_types = ['PronType=Ind', 'PronType=Tot', 'PronType=Int,Rel', 'PronType=Neg']
+			if w[2] in 'todo toda todos todas ambos ambas cada alguno alguna algunos algunas algún ninguno ninguna ningunos ningunas ningún alguien algo nada nadie varios varias cualquiera cualesquiera cuánto cuánta cuántos cuántas tanto tanta tantos tantas mucho mucha muchos muchas poco poca pocos pocas bastante bastantes demasiado demasiada demasiados demasiadas más menos'.split() \
+					and any(s in w[5] for s in annotated_types):
+				count += 1
+				matches.append(w[2].lower())
 	return count, matches
 
 
@@ -174,6 +207,10 @@ def cconj(tree, lang):
 		elif lang == 'ru':
 			if 'CCONJ' in w[3] and w[2] in ['и', 'а', 'но', 'или', 'ни', 'да', 'причем', 'либо', 'зато', 'иначе',
 			                                'только', 'ан', 'и/или', 'иль']:
+				count += 1
+				matches.append(w[2].lower())
+		elif lang == 'es':
+			if 'CCONJ' in w[3] and w[2] in 'y e ni o u pero sino más tanto como cuanto así ya bien sea'.split():
 				count += 1
 				matches.append(w[2].lower())
 	return count, matches
@@ -213,7 +250,13 @@ def sconj(tree, lang):
 			                                'ежели', 'покуда', 'постольку']:
 				count += 1
 				matches.append(w[2].lower())
-	
+
+		elif lang == 'es':
+			if 'SCONJ' in w[3] and w[2] in "que si como cuando donde aunque mientras porque pues para antes después hasta sin con tal de".split():
+				count += 1
+				matches.append(w[2].lower())
+			
+
 	return count, matches
 
 
@@ -523,7 +566,7 @@ def word_length(tree):
 def copulas(tree):
 	copCount = 0
 	for i, w in enumerate(tree):
-		if w[7] == "cop" and w[2] in ['be', 'sein', 'быть', 'это']:
+		if w[7] == "cop" and w[2] in ['be', 'sein', 'быть', 'это', 'ser', 'estar']:
 			for prev_w in [tree[i - 1], tree[i - 2], tree[i - 3]]:
 				if prev_w[2] == 'there':
 					copCount += -1
@@ -537,7 +580,7 @@ def copulas(tree):
 def interrog(tree, lang):
 	count = 0
 	matches = []
-	if lang in ['en', 'de', 'ru']:
+	if lang in ['en', 'de', 'ru', 'es']:
 		last = tree[-1]
 		lastbut = tree[-2]
 		if tree[-1][2] == '?' or tree[-2][2] == '?':
@@ -551,7 +594,7 @@ def interrog(tree, lang):
 def nn(tree, lang):
 	count = 0
 	matches = []
-	if lang in ['en', 'de', 'ru']:
+	if lang in ['en', 'de', 'ru', 'es']:
 		for w in tree:
 			lemma = w[2].lower()
 			if 'NOUN' in w[3]:
@@ -698,7 +741,7 @@ def lex_ty_to(tree, lang):
 	for w in tree:
 		if w[3] in ['PUNCT', 'SYM', 'X']:
 			continue
-		if lang == 'en' or lang == 'de':
+		if lang == 'en' or lang == 'de' or lang == 'es':
 			if 'ADJ' in w[3] or 'ADV' in w[3] or 'VERB' in w[3] or 'NOUN' in w[3]:
 				lex_type = w[2] + '_' + w[3]
 				lex_types.append(lex_type)
@@ -911,7 +954,7 @@ def finites(tree, lang):
 	fins = 0
 	matches = []
 	inf = 0
-	if lang == 'en' or lang == 'ru':
+	if lang == 'en' or lang == 'ru' or lang == 'es':
 		for w in tree:
 			if 'VerbForm=Fin' in w[5]:
 				fins += 1
@@ -1286,6 +1329,7 @@ def passives(tree, lang):
 	try:
 		allpass = 0
 		by_pass = 0
+		agentless = 0  # initialise so return is always safe regardless of lang
 		counter_sem = 0
 		if lang == 'en':
 			for w in tree:
@@ -1577,6 +1621,26 @@ def passives(tree, lang):
 							counter_sem += 1
 			
 			agentless = allpass - by_pass + counter_sem
+		
+		if lang == 'es':
+			# Spanish passives: aux:pass + Voice=Pass on head verb (same structure as English),
+			# with 'por' marking the agent (equivalent to English 'by').
+			for w in tree:
+				if w[7] == 'aux:pass':
+					head = get_headwd(w, tree)
+					if head and 'Voice=Pass' in head[5]:
+						allpass += 1
+						obl_kids_ids = []
+						for pos in ['NOUN', 'PRON', 'PROPN']:
+							obl_kid_id = choose_kid_by_posrel(head, tree, pos, 'obl')
+							if obl_kid_id:
+								obl_kids_ids.append(obl_kid_id)
+						if obl_kids_ids:
+							for i in obl_kids_ids:
+								by_grandchild = choose_kid_by_lempos(tree[i], tree, 'por', 'ADP')
+								if by_grandchild:
+									by_pass += 1
+			agentless = allpass - by_pass
 	except Exception as e:
 		agentless = 0
 		by_pass = 0
@@ -1641,6 +1705,11 @@ def get_epistemic_stance(trees, lang):
 						and ('feel like' in sent or 'feel that' in sent):
 					verbs += 1
 		if lang == 'de':
+			continue
+		
+		if lang == 'es':
+			# Placeholder: no Spanish-specific epistemic stance verbs defined yet.
+			# Epistemic DMs are captured separately via count_dms / epistem searchlists.
 			continue
 		
 		if lang == 'ru':
@@ -1839,6 +1908,9 @@ def polarity(trees, lang):
 					которых ни у каких претендентов на власть , как правило , нет
 					Никаких сенсаций не будет , не рассчитывайте " , - сказал он журналистам .
 					'''
+			if lang == 'es':
+				if w[2] in ['no', 'ni']:
+					negs += 1
 	return negs
 
 
@@ -1887,6 +1959,10 @@ def demdeterm(trees, lang):
 				                              'один', 'сей', 'это', 'всякий', 'некий', 'какой-либо',
 				                              'какой-нибудь', 'кое-какой']:
 					res += 1
+			
+			if lang == 'es':
+				if w[7] == 'det' and w[2] in 'el la los las lo al del un una unos unas este esta esto estos estas ese esa eso esos esas aquel aquella aquello aquellos aquellas tanto tanta tantos tantas tal tales tan'.split():
+					res += 1
 	return res
 
 
@@ -1905,6 +1981,65 @@ def nouns_to_all(trees):
 	except ZeroDivisionError:
 		res = 0
 	return res
+
+
+### Functions used by new_mega_collector (compatible with all languages including es)
+
+def content_ty_to(tree):
+	"""Count content word type/token ratio. Language-independent; called from new_mega_collector."""
+	content_types = []
+	content_tokens = []
+	for w in tree:
+		if 'ADJ' in w[3] or 'ADV' in w[3] or 'VERB' in w[3] or 'NOUN' in w[3]:
+			content_type = w[2] + '_' + w[3]
+			content_types.append(content_type)
+			content_token = w[1] + '_' + w[3]
+			content_tokens.append(content_token)
+	return len(set(content_types)), len(content_tokens)
+
+
+def propn(tree):
+	"""Count subordinating conjunctions (SCONJ). Language-independent."""
+	res = 0
+	for w in tree:
+		if w[3] == 'SCONJ':
+			res += 1
+	return res
+
+
+def preps(tree, lang):
+	"""Count prepositions/adpositions using a language-specific list."""
+	res = 0
+	for w in tree:
+		if lang == 'en':
+			if w[3] == 'ADP' and w[2] in 'of in unlike for at as to along with after on towards amongst within over during by against about out from without into like up between before down across per off around since onto through beyond under despite than until because upon among back behind past outside throughout inside via above alongside versus below round'.split():
+				res += 1
+		elif lang == 'de':
+			if w[3] == 'ADP':
+				res += 1  # German ADP list not separately defined; count all ADP
+		elif lang == 'ru':
+			if w[3] == 'ADP':
+				res += 1
+		elif lang == 'es':
+			if w[3] == 'ADP' and w[2] in 'a ante bajo con contra de desde durante en entre hacia hasta mediante para por según sin sobre tras excepto salvo incluso'.split():
+				res += 1
+	return res
+
+
+def ud_freqs(trees, udfeats_=None):
+	"""
+	Return per-relation average frequency per sentence across all trees.
+	Used by new_mega_collector. Language-independent.
+	"""
+	relations = udfeats_
+	relations_d = {rel: [] for rel in relations}
+	for tree in trees:
+		sent_relations = [w[7] for w in tree]
+		counts = {rel: sent_relations.count(rel) for rel in relations}
+		for rel in relations_d:
+			relations_d[rel].append(counts[rel])
+	dict_out = {rel: np.average(vals) for rel, vals in relations_d.items()}
+	return dict_out
 
 
 ### 7 UD dependencies

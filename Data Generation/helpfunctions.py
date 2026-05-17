@@ -289,6 +289,11 @@ def sents_num(trees, lang):
 			lastwd = tree[-1]
 			if not lastwd[2] in [':', ';', 'Дж.']:
 				sentnum += 1  # this is a fair num-of-sents count for a file
+	if lang == 'es':
+		for tree in trees:
+			lastwd = tree[-1]
+			if not lastwd[2] in [':', ';']:
+				sentnum += 1  # this is a fair num-of-sents count for a file
 	
 	return sentnum
 
@@ -405,7 +410,15 @@ def support_all_lang(lang):
 				adj = adj.strip()
 				adj_pred.append(adj)
 			converts = []
-	
+
+	if lang == 'es':
+		# Spanish has no dedicated deverbals/quantifiers/modal-adj/converts lists;
+		# return empty lists so callers (mega_collector) don't break.
+		quantifiers = []
+		adj_pred = []
+		pseudo_deverbs = []
+		converts = []
+
 	return quantifiers, adj_pred, pseudo_deverbs, converts
 
 			
