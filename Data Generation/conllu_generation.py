@@ -129,7 +129,10 @@ def main():
 
         with open(out_path, "w", encoding="utf-8") as f:
 
+
             global_sent_id = 1
+
+
 
             for doc in processed_docs:
 
