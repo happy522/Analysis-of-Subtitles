@@ -2,19 +2,23 @@ from pathlib import Path
 import stanza
 from stanza.utils.conll import CoNLL
 
+import os
+
+os.environ["CUDA_VISIBLE_DEVICES"] = "0"
+
 # =====================================================
 # CONFIG
 # =====================================================
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-INPUT_FOLDER = BASE_DIR / "Subtitles Data"
-OUTPUT_FOLDER = BASE_DIR / "Subtitles Data/conllu"
+INPUT_FOLDER = BASE_DIR / "Subtitles Data/txt"
+OUTPUT_FOLDER = BASE_DIR / "Subtitles Data/conllu/en"
 
-LANGUAGE = "de"
+LANGUAGE = "en"
 USE_GPU = True
 
-FILE_EXTENSION = "*.DE"
+FILE_EXTENSION = "*.EN_CC"
 
 # =====================================================
 # READ LINES
