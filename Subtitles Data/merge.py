@@ -7,7 +7,8 @@ files = [
     BASE_DIR / "Subtitles Data/de.csv",
     BASE_DIR / "Subtitles Data/en.csv",
     BASE_DIR / "Subtitles Data/es.csv",
-    BASE_DIR / "Subtitles Data/DE_Direkt.csv"
+    BASE_DIR / "Subtitles Data/DE_Direkt.csv",
+    BASE_DIR / "Subtitles Data/EN_CC.csv"
 
 ]
 
@@ -22,6 +23,8 @@ for file in files:
     # set alang value only for DE_Direkt.csv
     if file.name == "DE_Direkt.csv":
         df["alang"] = "DE_Direkt"
+    if file.name == "EN_CC.csv":
+        df["alang"] = "EN_CC"
 
     dfs.append(df)
 
