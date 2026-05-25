@@ -4,11 +4,11 @@ import pandas as pd
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 files = [
-    BASE_DIR / "Subtitles Data/de.csv",
-    BASE_DIR / "Subtitles Data/en.csv",
-    BASE_DIR / "Subtitles Data/es.csv",
-    BASE_DIR / "Subtitles Data/DE_Direkt.csv",
-    BASE_DIR / "Subtitles Data/EN_CC.csv"
+    BASE_DIR / "Data Generation/Linguistic-features/de-linguistic-features.csv",
+    BASE_DIR / "Data Generation/Linguistic-features/en-linguistic-features.csv",
+    BASE_DIR / "Data Generation/Linguistic-features/es-linguistic-features.csv",
+    BASE_DIR / "Data Generation/Linguistic-features/DE_direct-linguistic-features.csv",
+    BASE_DIR / "Data Generation/Linguistic-features/EN_cc-linguistic-features.csv"
 
 ]
 
@@ -32,7 +32,7 @@ for file in files:
 merged_df = pd.concat(dfs, ignore_index=True)
 
 # save merged file
-output_path = BASE_DIR / "Subtitles Data/merged.csv"
+output_path = BASE_DIR / "Data Generation/Linguistic-features/merged.csv"
 
 merged_df.to_csv(output_path, index=False)
 
